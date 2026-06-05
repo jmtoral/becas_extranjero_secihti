@@ -1,0 +1,18 @@
+project:
+  type: website
+  output-dir: ../site/quarto
+
+website:
+  title: "Padron de Becas al Extranjero"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: metodologia.qmd
+        text: Metodologia
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true

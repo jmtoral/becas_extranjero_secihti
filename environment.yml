@@ -1,0 +1,16 @@
+name: becas-conahcyt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - openpyxl>=3.1.0
+  - pandas>=2.2.0
+  - pyarrow>=16.0.0
+  - python-slugify>=8.0.0
+  - rapidfuzz>=3.9.0
+  - xlsxwriter>=3.2.0
+  - xlrd>=2.0.1
+  - pytest>=8.0.0
+  - pip
+  - pip:
+      - quarto-cli

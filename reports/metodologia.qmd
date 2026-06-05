@@ -1,0 +1,20 @@
+---
+title: "Metodologia"
+lang: es
+---
+
+## Principios
+
+1. No modificar archivos crudos.
+2. Deduplicacion conservadora.
+3. Montos reales con base 2020.
+4. Solo montos publicados.
+5. Trazabilidad por archivo, hoja y observacion.
+
+## Formula de deflactacion
+
+`monto_real = monto_nominal * (100 / deflactor_del_anio_origen)`
+
+## SIPOC
+
+Consulta [`docs/SIPOC.md`](../docs/SIPOC.md) para la version detallada.

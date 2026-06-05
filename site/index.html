@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Padrón de Becas al Extranjero</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="topbar">
+        <div class="brand">Padrón de Becas al Extranjero</div>
+        <button id="lang-toggle" class="lang-toggle" type="button">ES / EN</button>
+      </nav>
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">Serie histórica, montos reales y destinos académicos</p>
+        <h1 data-i18n="title">Becas mexicanas al extranjero, con trazabilidad y diseño público</h1>
+        <p class="lede" data-i18n="lede">
+          Proyecto estático bilingüe para explorar la evolución histórica de las becas al extranjero
+          publicadas por Conacyt, Conahcyt y Secihti.
+        </p>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="kpi-grid">
+        <article class="kpi-card">
+          <span class="kpi-label" data-i18n="kpi_count">Becas registradas</span>
+          <strong id="kpi-count" class="kpi-value">0</strong>
+        </article>
+        <article class="kpi-card">
+          <span class="kpi-label" data-i18n="kpi_amount">Monto real acumulado (base 2020)</span>
+          <strong id="kpi-amount" class="kpi-value kpi-value-amount">$0</strong>
+        </article>
+        <article class="kpi-card">
+          <span class="kpi-label" data-i18n="kpi_years">Años cubiertos</span>
+          <strong id="kpi-years" class="kpi-value">0</strong>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2 data-i18n="yearly_title">Serie anual</h2>
+          <p data-i18n="yearly_subtitle">Resumen del número de becas y montos reales por año.</p>
+        </div>
+        <div id="yearly-chart" class="bars"></div>
+      </section>
+
+      <section class="two-column">
+        <article class="panel">
+          <div class="panel-header">
+            <h2 data-i18n="knowledge_area_title">Áreas del conocimiento</h2>
+            <p data-i18n="knowledge_area_subtitle">Evolución anual del número de becas por área.</p>
+          </div>
+          <div id="knowledge-area-line-chart" class="line-chart"></div>
+          <div id="knowledge-area-legend" class="line-legend"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <h2 data-i18n="degree_title">Nivel de estudios</h2>
+            <p data-i18n="degree_subtitle">Evolución anual del número de becas por nivel.</p>
+          </div>
+          <div id="degree-line-chart" class="line-chart"></div>
+          <div id="degree-legend" class="line-legend"></div>
+        </article>
+      </section>
+
+      <section class="panel map-panel">
+        <div class="panel-header">
+          <h2 data-i18n="map_title">Mapa anual de destinos</h2>
+          <p data-i18n="map_subtitle">
+            Círculos escalados por número de becas en el país destino del año seleccionado.
+          </p>
+        </div>
+
+        <div class="year-controls">
+          <button id="year-prev" class="year-step" type="button" aria-label="Previous year">&#8592;</button>
+          <div class="year-slider-wrap">
+            <div class="year-slider-header">
+              <strong id="selected-year-label" class="selected-year-label">-</strong>
+              <span id="selected-year-coverage" class="coverage-pill">-</span>
+            </div>
+            <input id="year-slider" class="year-slider" type="range" min="0" max="0" value="0" step="1" />
+          </div>
+          <button id="year-next" class="year-step" type="button" aria-label="Next year">&#8594;</button>
+        </div>
+
+        <div class="map-layout">
+          <div class="map-stage">
+            <div id="world-map-root" class="world-map-root"></div>
+          </div>
+
+          <aside class="year-sidecar">
+            <div class="year-kpis">
+              <article class="year-kpi">
+                <span data-i18n="selected_year_count">Becas del año</span>
+                <strong id="selected-year-count">0</strong>
+              </article>
+              <article class="year-kpi">
+                <span data-i18n="selected_year_amount">Monto real del año</span>
+                <strong id="selected-year-amount">$0</strong>
+              </article>
+            </div>
+
+            <div class="panel-header compact">
+              <h3 data-i18n="selected_year_top">Destinos del año seleccionado</h3>
+            </div>
+            <ol id="selected-year-country-list" class="ranking compact-ranking"></ol>
+
+          </aside>
+        </div>
+
+        <div class="partial-note-slot">
+          <div id="partial-note" class="partial-note" hidden></div>
+        </div>
+
+        <div class="treemap-section">
+          <div class="panel-header treemap-header">
+            <h3 data-i18n="selected_year_institutions">Instituciones del año seleccionado</h3>
+            <p data-i18n="selected_year_institutions_subtitle">
+              Tamaño del bloque según monto y detalle al pasar el cursor.
+            </p>
+          </div>
+          <div id="selected-year-institution-note" class="viz-note" hidden></div>
+          <div id="selected-year-institution-treemap" class="treemap"></div>
+        </div>
+      </section>
+
+      <section class="two-column">
+        <article class="panel">
+          <div class="panel-header">
+            <h2 data-i18n="countries_title">Destinos principales</h2>
+            <p data-i18n="countries_subtitle">Países con mayor presencia en la serie integrada.</p>
+          </div>
+          <ol id="country-list" class="ranking"></ol>
+        </article>
+
+        <article class="panel">
+          <div class="panel-header">
+            <h2 data-i18n="institutions_title">Instituciones destino</h2>
+            <p data-i18n="institutions_subtitle">Universidades y centros con más becas registradas.</p>
+          </div>
+          <ol id="institution-list" class="ranking"></ol>
+        </article>
+      </section>
+
+      <section class="panel note-panel">
+        <div class="panel-header">
+          <h2 data-i18n="method_title">Método</h2>
+          <p data-i18n="method_body">
+            El sitio consume datos procesados fuera de línea. No estima pagos no publicados y prioriza
+            trazabilidad, deduplicación conservadora y montos reales base 2020.
+          </p>
+        </div>
+        <div class="source-block">
+          <h3 data-i18n="method_sources_title">Fuentes</h3>
+          <ul class="source-list">
+            <li>
+              <a
+                href="https://www.secihti.mx/padron-de-beneficiarios/"
+                target="_blank"
+                rel="noreferrer"
+                data-i18n="method_source_current"
+              >SECIHTI. Padrón de beneficiarios vigente.</a>
+            </li>
+            <li>
+              <a
+                href="https://secihti.mx/becas_posgrados/padron-de-beneficiarios/"
+                target="_blank"
+                rel="noreferrer"
+                data-i18n="method_source_historical"
+              >SECIHTI. Archivo histórico de becas y posgrados.</a>
+            </li>
+            <li>
+              <a
+                href="https://www.inegi.org.mx/temas/inpc/"
+                target="_blank"
+                rel="noreferrer"
+                data-i18n="method_source_inflation"
+              >INEGI. Índice Nacional de Precios al Consumidor (base para la deflactación alineada a 2020).</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/data/summary.js"></script>
+    <script src="assets/data/world-map.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

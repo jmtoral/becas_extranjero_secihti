@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "metodologia.html",
+    "href": "metodologia.html",
+    "title": "Metodologia",
+    "section": "",
+    "text": "No modificar archivos crudos.\nDeduplicacion conservadora.\nMontos reales con base 2020.\nSolo montos publicados.\nTrazabilidad por archivo, hoja y observacion."
+  },
+  {
+    "objectID": "metodologia.html#principios",
+    "href": "metodologia.html#principios",
+    "title": "Metodologia",
+    "section": "",
+    "text": "No modificar archivos crudos.\nDeduplicacion conservadora.\nMontos reales con base 2020.\nSolo montos publicados.\nTrazabilidad por archivo, hoja y observacion."
+  },
+  {
+    "objectID": "metodologia.html#formula-de-deflactacion",
+    "href": "metodologia.html#formula-de-deflactacion",
+    "title": "Metodologia",
+    "section": "Formula de deflactacion",
+    "text": "Formula de deflactacion\nmonto_real = monto_nominal * (100 / deflactor_del_anio_origen)"
+  },
+  {
+    "objectID": "metodologia.html#sipoc",
+    "href": "metodologia.html#sipoc",
+    "title": "Metodologia",
+    "section": "SIPOC",
+    "text": "SIPOC\nConsulta docs/SIPOC.md para la version detallada."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Panorama de Becas al Extranjero",
+    "section": "",
+    "text": "Este reporte resume la arquitectura y el flujo metodologico del proyecto. La salida analitica definitiva vive en la miniweb estatica dentro de site/."
+  },
+  {
+    "objectID": "index.html#objetivo",
+    "href": "index.html#objetivo",
+    "title": "Panorama de Becas al Extranjero",
+    "section": "",
+    "text": "Este reporte resume la arquitectura y el flujo metodologico del proyecto. La salida analitica definitiva vive en la miniweb estatica dentro de site/."
+  },
+  {
+    "objectID": "index.html#qué-produce-el-pipeline",
+    "href": "index.html#qué-produce-el-pipeline",
+    "title": "Panorama de Becas al Extranjero",
+    "section": "Qué produce el pipeline",
+    "text": "Qué produce el pipeline\n\nInventario de snapshots\nTabla maestra canónica\nResumen anual\nResumen por pais\nResumen por institucion"
+  },
+  {
+    "objectID": "index.html#notas-de-fase-1",
+    "href": "index.html#notas-de-fase-1",
+    "title": "Panorama de Becas al Extranjero",
+    "section": "Notas de fase 1",
+    "text": "Notas de fase 1\nLa fase 1 prioriza trazabilidad, contabilidad y comparabilidad temporal para becas al extranjero."
+  }
+]

@@ -1,0 +1,20 @@
+---
+title: "Panorama de Becas al Extranjero"
+lang: es
+---
+
+## Objetivo
+
+Este reporte resume la arquitectura y el flujo metodologico del proyecto. La salida analitica definitiva vive en la miniweb estatica dentro de [`site/`](../site/).
+
+## Qué produce el pipeline
+
+- Inventario de snapshots
+- Tabla maestra canónica
+- Resumen anual
+- Resumen por pais
+- Resumen por institucion
+
+## Notas de fase 1
+
+La fase 1 prioriza trazabilidad, contabilidad y comparabilidad temporal para becas al extranjero.

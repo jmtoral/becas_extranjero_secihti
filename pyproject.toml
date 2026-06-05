@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "padron-becas-extranjero-mx"
+version = "0.1.0"
+description = "Pipeline reproducible para integrar, estandarizar y publicar becas al extranjero del padron historico de Conacyt/Conahcyt/Secihti."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "Jose M. Toral" }
+]
+dependencies = [
+  "openpyxl>=3.1.0",
+  "pandas>=2.2.0",
+  "pyarrow>=16.0.0",
+  "python-slugify>=8.0.0",
+  "rapidfuzz>=3.9.0",
+  "xlsxwriter>=3.2.0",
+  "xlrd>=2.0.1"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.5.0"
+]
+
+[tool.setuptools]
+packages = ["etl", "etl.rules"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

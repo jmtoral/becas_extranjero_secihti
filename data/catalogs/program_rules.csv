@@ -1,0 +1,4 @@
+pattern,program_category,is_foreign_scope,rule_notes
+extranjero,becas_extranjero,1,Patron general para archivos explicitamente marcados como extranjero
+bext,becas_extranjero,1,Abreviacion comun en nombres de archivo
+movilidad,becas_extranjero,1,Revisar si se usa para becas internacionales
