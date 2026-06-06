@@ -3,20 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PadrÃ³n de Becas al Extranjero</title>
+    <title>Padr&oacute;n de Becas al Extranjero</title>
     <link rel="stylesheet" href="assets/css/styles_bis.css" />
   </head>
   <body class="theme-bis">
     <header class="hero">
       <nav class="topbar">
-        <div class="brand">PadrÃ³n de Becas al Extranjero</div>
+        <div class="brand">Padr&oacute;n de Becas al Extranjero</div>
         <button id="lang-toggle" class="lang-toggle" type="button">ES / EN</button>
       </nav>
       <div class="hero-copy">
-        <p class="eyebrow" data-i18n="eyebrow">Serie histÃ³rica, montos reales y destinos acadÃ©micos</p>
+        <p class="eyebrow" data-i18n="eyebrow">Serie hist&oacute;rica, montos reales y destinos acad&eacute;micos</p>
         <h1 data-i18n="title">Becas mexicanas al extranjero</h1>
         <p class="lede" data-i18n="lede">
-          Proyecto estÃ¡tico bilingÃ¼e para explorar la evoluciÃ³n histÃ³rica de las becas al extranjero
+          Proyecto est&aacute;tico biling&uuml;e para explorar la evoluci&oacute;n hist&oacute;rica de las becas al extranjero
           publicadas por Conacyt, Conahcyt y Secihti.
         </p>
       </div>
@@ -33,7 +33,7 @@
           <strong id="kpi-amount" class="kpi-value kpi-value-amount">$0</strong>
         </article>
         <article class="kpi-card">
-          <span class="kpi-label" data-i18n="kpi_years">AÃ±os cubiertos</span>
+          <span class="kpi-label" data-i18n="kpi_years">A&ntilde;os cubiertos</span>
           <strong id="kpi-years" class="kpi-value">0</strong>
         </article>
       </section>
@@ -41,7 +41,7 @@
       <section class="panel">
         <div class="panel-header">
           <h2 data-i18n="yearly_title">Serie anual</h2>
-          <p data-i18n="yearly_subtitle">Resumen del nÃºmero de becas y montos reales por aÃ±o.</p>
+          <p data-i18n="yearly_subtitle">Resumen del n&uacute;mero de becas y montos reales por a&ntilde;o.</p>
         </div>
         <div id="yearly-chart" class="bars"></div>
       </section>
@@ -49,8 +49,8 @@
       <section class="two-column">
         <article class="panel">
           <div class="panel-header">
-            <h2 data-i18n="knowledge_area_title">Ãreas del conocimiento</h2>
-            <p data-i18n="knowledge_area_subtitle">EvoluciÃ³n anual del nÃºmero de becas por Ã¡rea.</p>
+            <h2 data-i18n="knowledge_area_title">&Aacute;reas del conocimiento</h2>
+            <p data-i18n="knowledge_area_subtitle">Evoluci&oacute;n anual del n&uacute;mero de becas por &aacute;rea.</p>
           </div>
           <div id="knowledge-area-line-chart" class="line-chart"></div>
           <div id="knowledge-area-legend" class="line-legend"></div>
@@ -59,7 +59,7 @@
         <article class="panel">
           <div class="panel-header">
             <h2 data-i18n="degree_title">Nivel de estudios</h2>
-            <p data-i18n="degree_subtitle">EvoluciÃ³n anual del nÃºmero de becas por nivel.</p>
+            <p data-i18n="degree_subtitle">Evoluci&oacute;n anual del n&uacute;mero de becas por nivel.</p>
           </div>
           <div id="degree-line-chart" class="line-chart"></div>
           <div id="degree-legend" class="line-legend"></div>
@@ -70,7 +70,7 @@
         <div class="panel-header">
           <h2 data-i18n="map_title">Mapa anual de destinos</h2>
           <p data-i18n="map_subtitle">
-            CÃ­rculos escalados por nÃºmero de becas en el paÃ­s destino del aÃ±o seleccionado.
+            C&iacute;rculos escalados por n&uacute;mero de becas en el pa&iacute;s destino del a&ntilde;o seleccionado.
           </p>
         </div>
 
@@ -90,7 +90,7 @@
           <div class="map-stage">
             <div class="map-tools" aria-label="Map controls">
               <button id="map-zoom-in" class="map-tool" type="button" aria-label="Zoom in">+</button>
-              <button id="map-zoom-out" class="map-tool" type="button" aria-label="Zoom out">âˆ’</button>
+              <button id="map-zoom-out" class="map-tool" type="button" aria-label="Zoom out">&minus;</button>
               <button id="map-zoom-reset" class="map-tool map-tool-reset" type="button" aria-label="Reset zoom">Reset</button>
             </div>
             <div id="world-map-root" class="world-map-root"></div>
@@ -99,17 +99,17 @@
           <aside class="year-sidecar">
             <div class="year-kpis">
               <article class="year-kpi">
-                <span data-i18n="selected_year_count">Becas del aÃ±o</span>
+                <span data-i18n="selected_year_count">Becas del a&ntilde;o</span>
                 <strong id="selected-year-count">0</strong>
               </article>
               <article class="year-kpi">
-                <span data-i18n="selected_year_amount">Monto real del aÃ±o</span>
+                <span data-i18n="selected_year_amount">Monto real del a&ntilde;o</span>
                 <strong id="selected-year-amount">$0</strong>
               </article>
             </div>
 
             <div class="panel-header compact">
-              <h3 data-i18n="selected_year_top">Destinos del aÃ±o seleccionado</h3>
+              <h3 data-i18n="selected_year_top">Destinos del a&ntilde;o seleccionado</h3>
             </div>
             <ol id="selected-year-country-list" class="ranking compact-ranking"></ol>
           </aside>
@@ -121,9 +121,9 @@
 
         <div class="treemap-section">
           <div class="panel-header treemap-header">
-            <h3 data-i18n="selected_year_institutions">Instituciones del aÃ±o seleccionado</h3>
+            <h3 data-i18n="selected_year_institutions">Instituciones del a&ntilde;o seleccionado</h3>
             <p data-i18n="selected_year_institutions_subtitle">
-              TamaÃ±o del bloque segÃºn monto y detalle al pasar el cursor.
+              Tama&ntilde;o del bloque seg&uacute;n monto y detalle al pasar el cursor.
             </p>
           </div>
           <div id="selected-year-institution-note" class="viz-note" hidden></div>
@@ -135,7 +135,7 @@
         <article class="panel">
           <div class="panel-header">
             <h2 data-i18n="countries_title">Destinos principales</h2>
-            <p data-i18n="countries_subtitle">PaÃ­ses con mayor presencia en la serie integrada.</p>
+            <p data-i18n="countries_subtitle">Pa&iacute;ses con mayor presencia en la serie integrada.</p>
           </div>
           <ol id="country-list" class="ranking"></ol>
         </article>
@@ -143,7 +143,7 @@
         <article class="panel">
           <div class="panel-header">
             <h2 data-i18n="institutions_title">Instituciones destino</h2>
-            <p data-i18n="institutions_subtitle">Universidades y centros con mÃ¡s becas registradas.</p>
+            <p data-i18n="institutions_subtitle">Universidades y centros con m&aacute;s becas registradas.</p>
           </div>
           <ol id="institution-list" class="ranking"></ol>
         </article>
@@ -151,10 +151,10 @@
 
       <section class="panel note-panel">
         <div class="panel-header">
-          <h2 data-i18n="method_title">MÃ©todo</h2>
+          <h2 data-i18n="method_title">M&eacute;todo</h2>
           <p data-i18n="method_body">
-            El sitio consume datos procesados fuera de lÃ­nea. No estima pagos no publicados y prioriza
-            trazabilidad, deduplicaciÃ³n conservadora y montos reales base 2020.
+            El sitio consume datos procesados fuera de l&iacute;nea. No estima pagos no publicados y prioriza
+            trazabilidad, deduplicaci&oacute;n conservadora y montos reales base 2020.
           </p>
         </div>
         <div class="source-block">
@@ -166,7 +166,7 @@
                 target="_blank"
                 rel="noreferrer"
                 data-i18n="method_source_current"
-              >SECIHTI. PadrÃ³n de beneficiarios vigente.</a>
+              >SECIHTI. Padr&oacute;n de beneficiarios vigente.</a>
             </li>
             <li>
               <a
@@ -174,7 +174,7 @@
                 target="_blank"
                 rel="noreferrer"
                 data-i18n="method_source_historical"
-              >SECIHTI. Archivo histÃ³rico de becas y posgrados.</a>
+              >SECIHTI. Archivo hist&oacute;rico de becas y posgrados.</a>
             </li>
             <li>
               <a
@@ -182,17 +182,17 @@
                 target="_blank"
                 rel="noreferrer"
                 data-i18n="method_source_inflation"
-              >INEGI. Ãndice Nacional de Precios al Consumidor (base para la deflactaciÃ³n alineada a 2020).</a>
+              >INEGI. &Iacute;ndice Nacional de Precios al Consumidor (base para la deflactaci&oacute;n alineada a 2020).</a>
             </li>
           </ul>
         </div>
         <div class="source-block method-selection-block">
-          <h3 data-i18n="method_selection_title">Archivos y filtros por año</h3>
+          <h3 data-i18n="method_selection_title">Archivos y filtros por a&ntilde;o</h3>
           <div class="method-selection-table-wrap">
             <table class="method-selection-table">
               <thead>
                 <tr>
-                  <th data-i18n="method_selection_year">Año</th>
+                  <th data-i18n="method_selection_year">A&ntilde;o</th>
                   <th data-i18n="method_selection_file">Archivo elegido</th>
                   <th data-i18n="method_selection_rule">Filtro o criterio aplicado</th>
                 </tr>
