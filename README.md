@@ -26,6 +26,40 @@ En la versión actual:
 - `nacionales` usa archivos dedicados por año cuando existen y filtros sobre `S190` para `2025-2026`
 - se excluyen de `nacionales` apoyos no equivalentes al universo central, como `posdoctorales`, `sabáticas` y `repatriación`
 
+## ETL
+
+El proceso ETL está concentrado en `etl/pipeline.py` y en parsers especializados por universo en `etl/rules/`.
+
+Etapas:
+
+1. `Extract`
+   - `discover_source_files()` recorre `data/raw/snapshots/`
+   - `build_inventory()` genera un inventario con año, cobertura, pista de programa y banderas de candidato
+   - `parse_foreign_scholarship_file()` y `parse_national_scholarship_file()` leen la primera hoja útil de cada archivo
+
+2. `Transform`
+   - detección automática de la fila de encabezados
+   - limpieza y homogeneización de nombres de columnas
+   - filtrado del universo analítico
+   - `extranjero`: país distinto de México o marcadores de extranjero en `modalidad/convocatoria`
+   - `nacionales`: país México o marcadores de nacional en `modalidad/convocatoria`
+   - exclusión de tipos fuera de alcance en `nacionales`, como `posdoctorales`, `sabáticas` y `repatriación`
+   - normalización conservadora de nombres de persona, país, entidad, institución y grado
+   - cálculo de montos reales de 2020 con el catálogo de deflactores
+
+3. `Load`
+   - escritura de tablas maestras en `data/standardized/`
+   - construcción de agregados analíticos en `data/analysis/`
+   - exportación de semillas del frontend en `site/assets/data/`
+
+Principales componentes:
+
+- `etl/io_utils.py`: descubrimiento de archivos, metadatos de cobertura y detección de candidatos
+- `etl/rules/foreign_scholarships.py`: parser del universo de extranjero
+- `etl/rules/national_scholarships.py`: parser del universo nacional
+- `etl/pipeline.py`: orquestación, deflactación, agregados y exportación al sitio
+- `data/catalogs/*.csv`: catálogos manuales de apoyo a la normalización
+
 ## Qué produce
 
 Al correr el pipeline principal se generan estos archivos:
@@ -176,6 +210,53 @@ flowchart LR
     L --> Q
     Q --> R["site/quarto<br/>reporte renderizado"]
 ```
+
+## Inconsistencias entre archivos fuente
+
+El padrón histórico no tiene una estructura estable. Estas son las principales inconsistencias que el pipeline tiene que absorber o documentar:
+
+1. La unidad publicada cambia por año.
+   - Hay años con archivos dedicados para `extranjero` o `nacionales`.
+   - Hay años mixtos, como `S190`, donde el universo se tiene que inferir por reglas.
+
+2. La fila de encabezados no siempre está en la misma posición.
+   - Algunos archivos traen filas previas de presentación o formato antes del encabezado real.
+
+3. El nombre de la columna de beneficiario cambia.
+   - Aparece como `NOMBRE BECARIO` en unos archivos y como `NOMBRE` en otros.
+
+4. El identificador consecutivo no es totalmente estable.
+   - Aparece como `CONSEC` o `CONSEC.` según el archivo.
+
+5. La variable geográfica no es homogénea.
+   - `extranjero` depende principalmente de `PAIS`.
+   - `nacionales` depende de `ENTIDAD`, pero esa columna no siempre está presente o viene con variantes de escritura.
+
+6. La presencia de `PAIS` no es consistente.
+   - En varios archivos nacionales dedicados el país no viene explícito y se tiene que imputar como `México` por contexto del archivo.
+
+7. Los nombres de columnas de monto cambian entre años.
+   - El importe puede aparecer como `IMPORTE PAGADO`, `TOTAL PAGADO`, `IMPORTE TOTAL` o variantes por periodo.
+
+8. El periodo cubierto cambia y no siempre es anual.
+   - `2026` solo cubre `Enero-Marzo`.
+   - El pipeline marca esta diferencia en `year_metadata` y en el sitio.
+
+9. Las variables de fecha no son uniformes.
+   - `INICIO DE BECA`, `FIN DE BECA` y `TERMINO DE BECA` aparecen con distintos nombres según el archivo.
+
+10. `modalidad` y `convocatoria` no tienen un vocabulario estable.
+   - En años mixtos esas variables son necesarias para separar `extranjero` de `nacionales`.
+
+11. La clasificación por tipo de apoyo cambia entre años.
+   - En algunos años el archivo ya viene separado.
+   - En otros, el proyecto tiene que excluir manualmente universos fuera de alcance como `posdoctorales`, `sabáticas` y `repatriación`.
+
+12. Los nombres de instituciones y personas vienen con variaciones de escritura.
+   - Hay diferencias de mayúsculas, acentos, abreviaturas, sufijos legales y orden de nombres.
+
+13. La disponibilidad pública no es estable.
+   - `2021` ya no está visible en la web vigente, pero fue reincorporado desde el repositorio histórico del proyecto.
 
 ## Diferencias respecto al repo original
 
