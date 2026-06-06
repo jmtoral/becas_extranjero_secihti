@@ -168,9 +168,9 @@ const METHOD_SELECTION_ROWS = [
   },
   {
     year: "2021",
-    file: "No integrado en la versión actual",
-    rule_es: "La serie publicada actualmente en este sitio no incluye un snapshot 2021 ya integrado al pipeline.",
-    rule_en: "The series currently published on this site does not yet include a 2021 snapshot integrated into the pipeline."
+    file: "Becas_Extranjero_de_Enero_a_Diciembre_2021.xlsx",
+    rule_es: "Archivo específico de becas al extranjero recuperado del repositorio histórico del proyecto; se procesa con el mismo parser estándar del histórico dedicado.",
+    rule_en: "Dedicated foreign-scholarship file recovered from the project's historical repository; it is processed with the same standard parser used for the dedicated historical series."
   },
   {
     year: "2022",

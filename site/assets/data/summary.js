@@ -1,9 +1,9 @@
 window.__SITE_SUMMARY__ = {
-  "updated_at_utc": "2026-06-06T01:30:41.754204+00:00",
+  "updated_at_utc": "2026-06-06T06:20:20.837004+00:00",
   "kpis": {
-    "scholarship_count": 66095,
-    "amount_real_mxn_2020": 15799279700.851305,
-    "years_covered": 14
+    "scholarship_count": 68900,
+    "amount_real_mxn_2020": 16052256118.034914,
+    "years_covered": 15
   },
   "yearly": [
     {
@@ -79,6 +79,14 @@ window.__SITE_SUMMARY__ = {
       "is_partial_period": false
     },
     {
+      "source_year": 2021,
+      "scholarship_count": 2805,
+      "amount_nominal_mxn": 264379294.8542,
+      "amount_real_mxn_2020": 252976417.1836082,
+      "coverage_label": "Enero-Diciembre",
+      "is_partial_period": false
+    },
+    {
       "source_year": 2022,
       "scholarship_count": 2480,
       "amount_nominal_mxn": 229103470.21854,
@@ -129,6 +137,7 @@ window.__SITE_SUMMARY__ = {
     2018,
     2019,
     2020,
+    2021,
     2022,
     2023,
     2024,
@@ -178,6 +187,11 @@ window.__SITE_SUMMARY__ = {
     },
     {
       "source_year": 2020,
+      "coverage_label": "Enero-Diciembre",
+      "is_partial_period": false
+    },
+    {
+      "source_year": 2021,
       "coverage_label": "Enero-Diciembre",
       "is_partial_period": false
     },
@@ -2908,6 +2922,258 @@ window.__SITE_SUMMARY__ = {
       "country_canonical": "Ucrania",
       "scholarship_count": 1,
       "amount_real_mxn_2020": 69618.29999999999,
+      "map_code": "ua"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Reino Unido",
+      "scholarship_count": 677,
+      "amount_real_mxn_2020": 68361138.08968127,
+      "map_code": "gb"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Estados Unidos",
+      "scholarship_count": 572,
+      "amount_real_mxn_2020": 69238835.31918257,
+      "map_code": "us"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Canadá",
+      "scholarship_count": 266,
+      "amount_real_mxn_2020": 22284015.549684558,
+      "map_code": "ca"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "España",
+      "scholarship_count": 262,
+      "amount_real_mxn_2020": 17906102.415631626,
+      "map_code": "es"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Alemania",
+      "scholarship_count": 257,
+      "amount_real_mxn_2020": 20450053.304386035,
+      "map_code": "de"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Francia",
+      "scholarship_count": 190,
+      "amount_real_mxn_2020": 14792837.420935242,
+      "map_code": "fr"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Cuba",
+      "scholarship_count": 178,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "map_code": "cu"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Países Bajos",
+      "scholarship_count": 135,
+      "amount_real_mxn_2020": 16913185.75265657,
+      "map_code": "nl"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Australia",
+      "scholarship_count": 64,
+      "amount_real_mxn_2020": 6039533.107849133,
+      "map_code": "au"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Brasil",
+      "scholarship_count": 26,
+      "amount_real_mxn_2020": 1868527.1904853818,
+      "map_code": "br"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Italia",
+      "scholarship_count": 23,
+      "amount_real_mxn_2020": 1508978.0928627194,
+      "map_code": "it"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Suiza",
+      "scholarship_count": 21,
+      "amount_real_mxn_2020": 1669284.536856491,
+      "map_code": "ch"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Suecia",
+      "scholarship_count": 20,
+      "amount_real_mxn_2020": 1847679.344321738,
+      "map_code": "se"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Bélgica",
+      "scholarship_count": 19,
+      "amount_real_mxn_2020": 1275715.6502070453,
+      "map_code": "be"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Dinamarca",
+      "scholarship_count": 19,
+      "amount_real_mxn_2020": 2471357.773760426,
+      "map_code": "dk"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Nueva Zelanda",
+      "scholarship_count": 11,
+      "amount_real_mxn_2020": 943886.3736136245,
+      "map_code": "nz"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Finlandia",
+      "scholarship_count": 8,
+      "amount_real_mxn_2020": 508754.72961097717,
+      "map_code": "fi"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Japón",
+      "scholarship_count": 8,
+      "amount_real_mxn_2020": 673228.6032778375,
+      "map_code": "jp"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "China",
+      "scholarship_count": 7,
+      "amount_real_mxn_2020": 549340.7502394819,
+      "map_code": "cn"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Austria",
+      "scholarship_count": 6,
+      "amount_real_mxn_2020": 504217.57140148676,
+      "map_code": "at"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Bolivia",
+      "scholarship_count": 5,
+      "amount_real_mxn_2020": 697830.7152209982,
+      "map_code": "bo"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Chile",
+      "scholarship_count": 4,
+      "amount_real_mxn_2020": 303937.17316972767,
+      "map_code": "cl"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Irlanda",
+      "scholarship_count": 4,
+      "amount_real_mxn_2020": 254558.66282200007,
+      "map_code": "ie"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Costa Rica",
+      "scholarship_count": 3,
+      "amount_real_mxn_2020": 213803.0562565852,
+      "map_code": "cr"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Portugal",
+      "scholarship_count": 3,
+      "amount_real_mxn_2020": 263587.52795167745,
+      "map_code": "pt"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Rusia",
+      "scholarship_count": 3,
+      "amount_real_mxn_2020": 245469.91681475216,
+      "map_code": "ru"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Argentina",
+      "scholarship_count": 2,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "map_code": "ar"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Corea del Sur",
+      "scholarship_count": 2,
+      "amount_real_mxn_2020": 144858.04335586788,
+      "map_code": "kr"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Noruega",
+      "scholarship_count": 2,
+      "amount_real_mxn_2020": 173833.17330587594,
+      "map_code": "no"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "República Checa",
+      "scholarship_count": 2,
+      "amount_real_mxn_2020": 194489.35855904673,
+      "map_code": "cz"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Estonia",
+      "scholarship_count": 1,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "map_code": "ee"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "India",
+      "scholarship_count": 1,
+      "amount_real_mxn_2020": 184888.18993184713,
+      "map_code": "in"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Israel",
+      "scholarship_count": 1,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "map_code": "il"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Puerto Rico",
+      "scholarship_count": 1,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "map_code": "pr"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Singapur",
+      "scholarship_count": 1,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "map_code": "sg"
+    },
+    {
+      "source_year": 2021,
+      "country_canonical": "Ucrania",
+      "scholarship_count": 1,
+      "amount_real_mxn_2020": 77222.7930824845,
       "map_code": "ua"
     },
     {
@@ -69962,6 +70228,4839 @@ window.__SITE_SUMMARY__ = {
       "amount_visual_basis": "real_2020"
     },
     {
+      "source_year": 2021,
+      "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS",
+      "scholarship_count": 175,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CALIFORNIA",
+      "scholarship_count": 112,
+      "amount_nominal_mxn": 19841968.8472,
+      "amount_real_mxn_2020": 18986169.81939379,
+      "amount_visual_mxn": 18986169.81939379,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MCGILL UNIVERSITY",
+      "scholarship_count": 81,
+      "amount_nominal_mxn": 6631620.2299999995,
+      "amount_real_mxn_2020": 6345593.465755036,
+      "amount_visual_mxn": 6345593.465755036,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF TEXAS",
+      "scholarship_count": 74,
+      "amount_nominal_mxn": 8777845.298499998,
+      "amount_real_mxn_2020": 8399250.234142277,
+      "amount_visual_mxn": 8399250.234142277,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF LONDON",
+      "scholarship_count": 64,
+      "amount_nominal_mxn": 7359975.309999999,
+      "amount_real_mxn_2020": 7042534.043788933,
+      "amount_visual_mxn": 7042534.043788933,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD POLITECNICA DE CATALUÑA",
+      "scholarship_count": 52,
+      "amount_nominal_mxn": 4399979.8355,
+      "amount_real_mxn_2020": 4210205.398568597,
+      "amount_visual_mxn": 4210205.398568597,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF EDINBURGH",
+      "scholarship_count": 52,
+      "amount_nominal_mxn": 4131528.5900000003,
+      "amount_real_mxn_2020": 3953332.6570306513,
+      "amount_visual_mxn": 3953332.6570306513,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF LEEDS",
+      "scholarship_count": 52,
+      "amount_nominal_mxn": 5004339.74,
+      "amount_real_mxn_2020": 4788498.806205351,
+      "amount_visual_mxn": 4788498.806205351,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SHEFFIELD",
+      "scholarship_count": 49,
+      "amount_nominal_mxn": 4589646.85,
+      "amount_real_mxn_2020": 4391691.932196665,
+      "amount_visual_mxn": 4391691.932196665,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF YORK",
+      "scholarship_count": 38,
+      "amount_nominal_mxn": 1860328.92,
+      "amount_real_mxn_2020": 1780091.535625695,
+      "amount_visual_mxn": 1780091.535625695,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF BRISTOL",
+      "scholarship_count": 37,
+      "amount_nominal_mxn": 2232191.5884000002,
+      "amount_real_mxn_2020": 2135915.4876793055,
+      "amount_visual_mxn": 2135915.4876793055,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF NOTTINGHAM",
+      "scholarship_count": 37,
+      "amount_nominal_mxn": 2024698.4699999997,
+      "amount_real_mxn_2020": 1937371.7034089298,
+      "amount_visual_mxn": 1937371.7034089298,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAT MUNCHEN",
+      "scholarship_count": 36,
+      "amount_nominal_mxn": 2895438.2980000004,
+      "amount_real_mxn_2020": 2770555.8682581084,
+      "amount_visual_mxn": 2770555.8682581084,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ORGANIZACION IBEROAMERICANA DE SEGURIDAD SOCIAL-OISS",
+      "scholarship_count": 34,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY COLLEGE LONDON",
+      "scholarship_count": 33,
+      "amount_nominal_mxn": 3248079.4899999993,
+      "amount_real_mxn_2020": 3107987.3806339703,
+      "amount_visual_mxn": 3107987.3806339703,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ALBERTA",
+      "scholarship_count": 32,
+      "amount_nominal_mxn": 2699543.4028000003,
+      "amount_real_mxn_2020": 2583110.0671049426,
+      "amount_visual_mxn": 2583110.0671049426,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "WAGENINGEN UR",
+      "scholarship_count": 32,
+      "amount_nominal_mxn": 5330718.68,
+      "amount_real_mxn_2020": 5100800.777246304,
+      "amount_visual_mxn": 5100800.777246304,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF TORONTO",
+      "scholarship_count": 31,
+      "amount_nominal_mxn": 2306570.9553,
+      "amount_real_mxn_2020": 2207086.8165881136,
+      "amount_visual_mxn": 2207086.8165881136,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE PARIS",
+      "scholarship_count": 30,
+      "amount_nominal_mxn": 2518815.8400000003,
+      "amount_real_mxn_2020": 2410177.4199069724,
+      "amount_visual_mxn": 2410177.4199069724,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CHICAGO",
+      "scholarship_count": 30,
+      "amount_nominal_mxn": 6231482.180000001,
+      "amount_real_mxn_2020": 5962713.670559049,
+      "amount_visual_mxn": 5962713.670559049,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DURHAM UNIVERSITY",
+      "scholarship_count": 29,
+      "amount_nominal_mxn": 8830687.579999998,
+      "amount_real_mxn_2020": 8449813.38832971,
+      "amount_visual_mxn": 8449813.38832971,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HARVARD UNIVERSITY",
+      "scholarship_count": 29,
+      "amount_nominal_mxn": 3267177.34,
+      "amount_real_mxn_2020": 3126261.5260112565,
+      "amount_visual_mxn": 3126261.5260112565,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF GRONINGEN",
+      "scholarship_count": 27,
+      "amount_nominal_mxn": 3761491.58,
+      "amount_real_mxn_2020": 3599255.62135825,
+      "amount_visual_mxn": 3599255.62135825,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CAMBRIDGE",
+      "scholarship_count": 25,
+      "amount_nominal_mxn": 3893506.1799999997,
+      "amount_real_mxn_2020": 3725576.332450034,
+      "amount_visual_mxn": 3725576.332450034,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SOUTHAMPTON",
+      "scholarship_count": 24,
+      "amount_nominal_mxn": 3158319.62,
+      "amount_real_mxn_2020": 3022098.9212824586,
+      "amount_visual_mxn": 3022098.9212824586,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF GLASGOW",
+      "scholarship_count": 23,
+      "amount_nominal_mxn": 1745879.0754999998,
+      "amount_real_mxn_2020": 1670577.9989291164,
+      "amount_visual_mxn": 1670577.9989291164,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CALGARY",
+      "scholarship_count": 20,
+      "amount_nominal_mxn": 1386002.0716000001,
+      "amount_real_mxn_2020": 1326222.7606582807,
+      "amount_visual_mxn": 1326222.7606582807,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF OXFORD",
+      "scholarship_count": 20,
+      "amount_nominal_mxn": 1511833.58,
+      "amount_real_mxn_2020": 1446627.0615374255,
+      "amount_visual_mxn": 1446627.0615374255,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ARIZONA",
+      "scholarship_count": 19,
+      "amount_nominal_mxn": 2541434.4042,
+      "amount_real_mxn_2020": 2431820.428434963,
+      "amount_visual_mxn": 2431820.428434963,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF MANCHESTER",
+      "scholarship_count": 19,
+      "amount_nominal_mxn": 3661528.3800000004,
+      "amount_real_mxn_2020": 3503603.909297536,
+      "amount_visual_mxn": 3503603.909297536,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SUSSEX",
+      "scholarship_count": 19,
+      "amount_nominal_mxn": 1215394.4556,
+      "amount_real_mxn_2020": 1162973.5793495914,
+      "amount_visual_mxn": 1162973.5793495914,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE BARCELONA",
+      "scholarship_count": 17,
+      "amount_nominal_mxn": 1341668.712,
+      "amount_real_mxn_2020": 1283801.5321747665,
+      "amount_visual_mxn": 1283801.5321747665,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KINGS COLLEGE LONDON",
+      "scholarship_count": 16,
+      "amount_nominal_mxn": 1887565.1599999997,
+      "amount_real_mxn_2020": 1806153.0561262039,
+      "amount_visual_mxn": 1806153.0561262039,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "POLITECNICO DI MILANO",
+      "scholarship_count": 16,
+      "amount_nominal_mxn": 1160590.3560000001,
+      "amount_real_mxn_2020": 1110533.2217511365,
+      "amount_visual_mxn": 1110533.2217511365,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD COMPLUTENSE DE MADRID",
+      "scholarship_count": 16,
+      "amount_nominal_mxn": 1292156.7200000002,
+      "amount_real_mxn_2020": 1236425.029598455,
+      "amount_visual_mxn": 1236425.029598455,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAT BERLIN",
+      "scholarship_count": 15,
+      "amount_nominal_mxn": 1647034.5032000006,
+      "amount_real_mxn_2020": 1575996.6673150419,
+      "amount_visual_mxn": 1575996.6673150419,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD POLITECNICA DE MADRID",
+      "scholarship_count": 15,
+      "amount_nominal_mxn": 1069437.3,
+      "amount_real_mxn_2020": 1023311.6655587967,
+      "amount_visual_mxn": 1023311.6655587967,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "COLUMBIA UNIVERSITY",
+      "scholarship_count": 14,
+      "amount_nominal_mxn": 1335169.75,
+      "amount_real_mxn_2020": 1277582.8752898574,
+      "amount_visual_mxn": 1277582.8752898574,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD AUTONOMA DE BARCELONA",
+      "scholarship_count": 14,
+      "amount_nominal_mxn": 1135680.4300000002,
+      "amount_real_mxn_2020": 1086697.6795795604,
+      "amount_visual_mxn": 1086697.6795795604,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF BRITISH COLUMBIA",
+      "scholarship_count": 14,
+      "amount_nominal_mxn": 1205622.3185999999,
+      "amount_real_mxn_2020": 1153622.9219622542,
+      "amount_visual_mxn": 1153622.9219622542,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF LIVERPOOL",
+      "scholarship_count": 14,
+      "amount_nominal_mxn": 3000270.33,
+      "amount_real_mxn_2020": 2870866.4159356887,
+      "amount_visual_mxn": 2870866.4159356887,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DELFT UNIVERSITY OF TECHNOLOGY",
+      "scholarship_count": 13,
+      "amount_nominal_mxn": 989036.54,
+      "amount_real_mxn_2020": 946378.6507595251,
+      "amount_visual_mxn": 946378.6507595251,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ABERDEEN",
+      "scholarship_count": 13,
+      "amount_nominal_mxn": 1101917.45,
+      "amount_real_mxn_2020": 1054390.922280158,
+      "amount_visual_mxn": 1054390.922280158,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ILLINOIS",
+      "scholarship_count": 13,
+      "amount_nominal_mxn": 1134643.85,
+      "amount_real_mxn_2020": 1085705.8080539599,
+      "amount_visual_mxn": 1085705.8080539599,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF WATERLOO",
+      "scholarship_count": 13,
+      "amount_nominal_mxn": 1158910.7942000001,
+      "amount_real_mxn_2020": 1108926.100713777,
+      "amount_visual_mxn": 1108926.100713777,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KU LEUVEN",
+      "scholarship_count": 12,
+      "amount_nominal_mxn": 795346.96,
+      "amount_real_mxn_2020": 761043.0479044687,
+      "amount_visual_mxn": 761043.0479044687,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE ZARAGOZA",
+      "scholarship_count": 12,
+      "amount_nominal_mxn": 1000735.26,
+      "amount_real_mxn_2020": 957572.7961742269,
+      "amount_visual_mxn": 957572.7961742269,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD POLITECNICA DE VALENCIA",
+      "scholarship_count": 12,
+      "amount_nominal_mxn": 1003169.22,
+      "amount_real_mxn_2020": 959901.7776502827,
+      "amount_visual_mxn": 959901.7776502827,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF OTTAWA",
+      "scholarship_count": 12,
+      "amount_nominal_mxn": 1288431.0778,
+      "amount_real_mxn_2020": 1232860.077146396,
+      "amount_visual_mxn": 1232860.077146396,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ARIZONA STATE UNIVERSITY",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 509888.5,
+      "amount_real_mxn_2020": 487896.62580898975,
+      "amount_visual_mxn": 487896.62580898975,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LEIDEN UNIVERSITY",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 1122718.4400000002,
+      "amount_real_mxn_2020": 1074294.749949318,
+      "amount_visual_mxn": 1074294.749949318,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NEW MEXICO STATE UNIVERSITY",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 1646759.0274,
+      "amount_real_mxn_2020": 1575733.072993319,
+      "amount_visual_mxn": 1575733.072993319,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "RICE UNIVERSITY",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 2448382.8,
+      "amount_real_mxn_2020": 2342782.2098532654,
+      "amount_visual_mxn": 2342782.2098532654,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "STANFORD UNIVERSITY",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 717422.28,
+      "amount_real_mxn_2020": 686479.3179139995,
+      "amount_visual_mxn": 686479.3179139995,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT HEIDELBERG",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 686677.6225,
+      "amount_real_mxn_2020": 657060.7005968741,
+      "amount_visual_mxn": 657060.7005968741,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE GRENOBLE",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 1126747.68,
+      "amount_real_mxn_2020": 1078150.205800106,
+      "amount_visual_mxn": 1078150.205800106,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF TWENTE",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 1629032.9850000003,
+      "amount_real_mxn_2020": 1558771.5681233187,
+      "amount_visual_mxn": 1558771.5681233187,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF WARWICK",
+      "scholarship_count": 11,
+      "amount_nominal_mxn": 718184.5,
+      "amount_real_mxn_2020": 687208.6627925839,
+      "amount_visual_mxn": 687208.6627925839,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "AIX-MARSEILLE UNIVERSITE",
+      "scholarship_count": 10,
+      "amount_nominal_mxn": 639973.7799999999,
+      "amount_real_mxn_2020": 612371.2299222767,
+      "amount_visual_mxn": 612371.2299222767,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ALBERT LUDWIGS UNIVERSITAT FREIBURG",
+      "scholarship_count": 10,
+      "amount_nominal_mxn": 1119002.1,
+      "amount_real_mxn_2020": 1070738.6984863824,
+      "amount_visual_mxn": 1070738.6984863824,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "Massachusetts Institute of Technology",
+      "scholarship_count": 10,
+      "amount_nominal_mxn": 697098.8,
+      "amount_real_mxn_2020": 667032.4048796861,
+      "amount_visual_mxn": 667032.4048796861,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NEW YORK UNIVERSITY",
+      "scholarship_count": 10,
+      "amount_nominal_mxn": 914142.8699999999,
+      "amount_real_mxn_2020": 874715.2010299233,
+      "amount_visual_mxn": 874715.2010299233,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TEXAS A&M UNIVERSITY",
+      "scholarship_count": 10,
+      "amount_nominal_mxn": 878837.5885999999,
+      "amount_real_mxn_2020": 840932.6629489567,
+      "amount_visual_mxn": 840932.6629489567,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD AUTONOMA DE MADRID",
+      "scholarship_count": 10,
+      "amount_nominal_mxn": 639473.74,
+      "amount_real_mxn_2020": 611892.7570232616,
+      "amount_visual_mxn": 611892.7570232616,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT STUTTGART",
+      "scholarship_count": 10,
+      "amount_nominal_mxn": 1030977.498,
+      "amount_real_mxn_2020": 986510.66372196,
+      "amount_visual_mxn": 986510.66372196,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DUKE UNIVERSITY",
+      "scholarship_count": 9,
+      "amount_nominal_mxn": 884369.6799999999,
+      "amount_real_mxn_2020": 846226.1510894559,
+      "amount_visual_mxn": 846226.1510894559,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NORTHWESTERN UNIVERSITY",
+      "scholarship_count": 9,
+      "amount_nominal_mxn": 1128563.27,
+      "amount_real_mxn_2020": 1079887.4880389732,
+      "amount_visual_mxn": 1079887.4880389732,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "PURDUE UNIVERSITY",
+      "scholarship_count": 9,
+      "amount_nominal_mxn": 654782.7,
+      "amount_real_mxn_2020": 626541.4300736338,
+      "amount_visual_mxn": 626541.4300736338,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE GRANADA",
+      "scholarship_count": 9,
+      "amount_nominal_mxn": 728065.0,
+      "amount_real_mxn_2020": 696663.0094022952,
+      "amount_visual_mxn": 696663.0094022952,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF MELBOURNE",
+      "scholarship_count": 9,
+      "amount_nominal_mxn": 1500424.4619999998,
+      "amount_real_mxn_2020": 1435710.0273708247,
+      "amount_visual_mxn": 1435710.0273708247,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CARDIFF UNIVERSITY",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 1127843.6800000002,
+      "amount_real_mxn_2020": 1079198.9344964519,
+      "amount_visual_mxn": 1079198.9344964519,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CORNELL UNIVERSITY",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 1381882.94,
+      "amount_real_mxn_2020": 1322281.290299755,
+      "amount_visual_mxn": 1322281.290299755,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MONASH UNIVERSITY",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 756843.85,
+      "amount_real_mxn_2020": 724200.6059742183,
+      "amount_visual_mxn": 724200.6059742183,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "RWTH-AACHEN UNIVERSITY",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 801342.9287999999,
+      "amount_real_mxn_2020": 766780.4060640975,
+      "amount_visual_mxn": 766780.4060640975,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNICAL UNIVERSITY OF DENMARK",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 914179.12,
+      "amount_real_mxn_2020": 874749.8875401812,
+      "amount_visual_mxn": 874749.8875401812,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAET HAMBURG",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 699103.17,
+      "amount_real_mxn_2020": 668950.3248952832,
+      "amount_visual_mxn": 668950.3248952832,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAT DRESDEN",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 586271.16,
+      "amount_real_mxn_2020": 560984.8442809015,
+      "amount_visual_mxn": 560984.8442809015,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT ERLANGEN-NURNBERG",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 406912.16000000003,
+      "amount_real_mxn_2020": 389361.7327408793,
+      "amount_visual_mxn": 389361.7327408793,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE PARIS SUD",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 512612.80000000005,
+      "amount_real_mxn_2020": 490503.42470265273,
+      "amount_visual_mxn": 490503.42470265273,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF DURHAM",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 1141580.7,
+      "amount_real_mxn_2020": 1092343.4665003517,
+      "amount_visual_mxn": 1092343.4665003517,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF MICHIGAN",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 662296.5262,
+      "amount_real_mxn_2020": 633731.1793029166,
+      "amount_visual_mxn": 633731.1793029166,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF WESTERN AUSTRALIA",
+      "scholarship_count": 8,
+      "amount_nominal_mxn": 609577.0800000001,
+      "amount_real_mxn_2020": 583285.562436683,
+      "amount_visual_mxn": 583285.562436683,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CHARITE MEDICAL UNIVERSITY",
+      "scholarship_count": 7,
+      "amount_nominal_mxn": 360040.6,
+      "amount_real_mxn_2020": 344511.77834809804,
+      "amount_visual_mxn": 344511.77834809804,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CRANFIELD UNIVERSITY",
+      "scholarship_count": 7,
+      "amount_nominal_mxn": 421439.70999999996,
+      "amount_real_mxn_2020": 403262.69859178853,
+      "amount_visual_mxn": 403262.69859178853,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LUND UNIVERSITY",
+      "scholarship_count": 7,
+      "amount_nominal_mxn": 504701.07999999996,
+      "amount_real_mxn_2020": 482932.9431319849,
+      "amount_visual_mxn": 482932.9431319849,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MCMASTER UNIVERSITY",
+      "scholarship_count": 7,
+      "amount_nominal_mxn": 472578.7044,
+      "amount_real_mxn_2020": 452196.02973188064,
+      "amount_visual_mxn": 452196.02973188064,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE TOULOUSE",
+      "scholarship_count": 7,
+      "amount_nominal_mxn": 470519.1200000001,
+      "amount_real_mxn_2020": 450225.27675484976,
+      "amount_visual_mxn": 450225.27675484976,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF BIRMINGHAM",
+      "scholarship_count": 7,
+      "amount_nominal_mxn": 585764.53,
+      "amount_real_mxn_2020": 560500.0656135386,
+      "amount_visual_mxn": 560500.0656135386,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF COPENHAGEN",
+      "scholarship_count": 7,
+      "amount_nominal_mxn": 1111820.29,
+      "amount_real_mxn_2020": 1063866.6453488802,
+      "amount_visual_mxn": 1063866.6453488802,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF WESTERN ONTARIO",
+      "scholarship_count": 7,
+      "amount_nominal_mxn": 930409.4164,
+      "amount_real_mxn_2020": 890280.1590592284,
+      "amount_visual_mxn": 890280.1590592284,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE POLYTECNIQUE FEDERALE DE LAUSANNE",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 552381.3706,
+      "amount_real_mxn_2020": 528556.7469662194,
+      "amount_visual_mxn": 528556.7469662194,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ERASMUS UNIVERSITY ROTTERDAM",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 1086740.14,
+      "amount_real_mxn_2020": 1039868.2210663492,
+      "amount_visual_mxn": 1039868.2210663492,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ETH ZURICH",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 457240.70019999996,
+      "amount_real_mxn_2020": 437519.5651796812,
+      "amount_visual_mxn": 437519.5651796812,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "IMPERIAL COLLEGE LONDON",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 1092781.44,
+      "amount_real_mxn_2020": 1045648.9552572552,
+      "amount_visual_mxn": 1045648.9552572552,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUTO DE ESTUDIOS SUPERIORES DE LA EMPRESA-IESE",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 696442.3400000001,
+      "amount_real_mxn_2020": 666404.2584928221,
+      "amount_visual_mxn": 666404.2584928221,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MACQUARIE UNIVERSITY",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 424491.77,
+      "amount_real_mxn_2020": 406183.1209503367,
+      "amount_visual_mxn": 406183.1209503367,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SCIENCES PO",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 372245.55000000005,
+      "amount_real_mxn_2020": 356190.31968246313,
+      "amount_visual_mxn": 356190.31968246313,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD CARLOS III DE MADRID",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 574602.6982999999,
+      "amount_real_mxn_2020": 549819.6521029813,
+      "amount_visual_mxn": 549819.6521029813,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE MONTREAL",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 547140.5436,
+      "amount_real_mxn_2020": 523541.9607732602,
+      "amount_visual_mxn": 523541.9607732602,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD POMPEU FABRA",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 367587.78,
+      "amount_real_mxn_2020": 351733.4428029212,
+      "amount_visual_mxn": 351733.4428029212,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT MUNCHEN",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 409614.436,
+      "amount_real_mxn_2020": 391947.4575462134,
+      "amount_visual_mxn": 391947.4575462134,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT TUBINGEN",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 472468.1,
+      "amount_real_mxn_2020": 452090.19578277296,
+      "amount_visual_mxn": 452090.19578277296,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE TOULOUSE",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 524676.46,
+      "amount_real_mxn_2020": 502046.7699808987,
+      "amount_visual_mxn": 502046.7699808987,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF AUCKLAND",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 635324.5738,
+      "amount_real_mxn_2020": 607922.547479605,
+      "amount_visual_mxn": 607922.547479605,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF BATH",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 870696.06,
+      "amount_real_mxn_2020": 833142.2845959102,
+      "amount_visual_mxn": 833142.2845959102,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF PENNSYLVANIA",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 689743.17,
+      "amount_real_mxn_2020": 659994.0287294114,
+      "amount_visual_mxn": 659994.0287294114,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ROCHESTER",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 766339.88,
+      "amount_real_mxn_2020": 733287.0650639624,
+      "amount_visual_mxn": 733287.0650639624,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SOUTHERN CALIFORNIA",
+      "scholarship_count": 6,
+      "amount_nominal_mxn": 491684.9,
+      "amount_real_mxn_2020": 470478.1607571666,
+      "amount_visual_mxn": 470478.1607571666,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "AALTO UNIVERSITY",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 269328.1,
+      "amount_real_mxn_2020": 257711.7766443962,
+      "amount_visual_mxn": 257711.7766443962,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "FREIE UNIVERSITAT BERLIN",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 418999.79720000003,
+      "amount_real_mxn_2020": 400928.0210644701,
+      "amount_visual_mxn": 400928.0210644701,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GEORGIA INSTITUTE OF TECHNOLOGY",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 218729.5,
+      "amount_real_mxn_2020": 209295.53228772062,
+      "amount_visual_mxn": 209295.53228772062,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HERTIE SCHOOL OF GOVERNANCE",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 931408.5125000001,
+      "amount_real_mxn_2020": 891236.1633936054,
+      "amount_visual_mxn": 891236.1633936054,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUT SUPERIEUR DE L AERONAUTIQUE ET DE L ESPACE",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 951117.98,
+      "amount_real_mxn_2020": 910095.54674848,
+      "amount_visual_mxn": 910095.54674848,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUTO DE EMPRESA",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 606498.4,
+      "amount_real_mxn_2020": 580339.66821874,
+      "amount_visual_mxn": 580339.66821874,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NEWCASTLE UNIVERSITY",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 258442.8,
+      "amount_real_mxn_2020": 247295.96781380163,
+      "amount_visual_mxn": 247295.96781380163,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "OHIO STATE UNIVERSITY",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 425380.42,
+      "amount_real_mxn_2020": 407033.4428080078,
+      "amount_visual_mxn": 407033.4428080078,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ROYAL INSTITUTE OF TECHNOLOGY-KTH",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 805665.84,
+      "amount_real_mxn_2020": 770916.866855333,
+      "amount_visual_mxn": 770916.866855333,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE NAVARRA",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 363337.36,
+      "amount_real_mxn_2020": 347666.34661175194,
+      "amount_visual_mxn": 347666.34661175194,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD MAYOR DE SAN SIMON",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 729285.3400000001,
+      "amount_real_mxn_2020": 697830.7152209982,
+      "amount_visual_mxn": 697830.7152209982,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT ZU GOTTINGEN",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 422279.12,
+      "amount_real_mxn_2020": 404065.9042076641,
+      "amount_visual_mxn": 404065.9042076641,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE BORDEAUX",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 396439.5800000001,
+      "amount_real_mxn_2020": 379340.8429865218,
+      "amount_visual_mxn": 379340.8429865218,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE STRASBOURG",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 357485.92000000004,
+      "amount_real_mxn_2020": 342067.2836163641,
+      "amount_visual_mxn": 342067.2836163641,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITEIT UTRECHT",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 502937.32000000007,
+      "amount_real_mxn_2020": 481245.25542626705,
+      "amount_visual_mxn": 481245.25542626705,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF AMSTERDAM",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 712120.4999999999,
+      "amount_real_mxn_2020": 681406.2076697372,
+      "amount_visual_mxn": 681406.2076697372,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF FLORIDA",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 771150.4122,
+      "amount_real_mxn_2020": 737890.1153950162,
+      "amount_visual_mxn": 737890.1153950162,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF NEW SOUTH WALES",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 608809.561,
+      "amount_real_mxn_2020": 582551.1471079508,
+      "amount_visual_mxn": 582551.1471079508,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF QUEENSLAND",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 522777.69,
+      "amount_real_mxn_2020": 500229.8953579421,
+      "amount_visual_mxn": 500229.8953579421,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF THE ARTS LONDON",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 147681.59999999998,
+      "amount_real_mxn_2020": 141311.9816078866,
+      "amount_visual_mxn": 141311.9816078866,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "YALE UNIVERSITY",
+      "scholarship_count": 5,
+      "amount_nominal_mxn": 401526.52,
+      "amount_real_mxn_2020": 384208.3794414384,
+      "amount_visual_mxn": 384208.3794414384,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DALHOUSIE UNIVERSITY",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 440961.97,
+      "amount_real_mxn_2020": 421942.9488468263,
+      "amount_visual_mxn": 421942.9488468263,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE DE TECHNOLOGIE SUPERIURE",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 371120.4936,
+      "amount_real_mxn_2020": 355113.78781048564,
+      "amount_visual_mxn": 355113.78781048564,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE DES HAUTES ETUDES EN SCIENCES SOCIALES",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 271720.58,
+      "amount_real_mxn_2020": 260001.06718402496,
+      "amount_visual_mxn": 260001.06718402496,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "EINDHOVEN UNIVERSITY OF TECHNOLOGY",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 1003896.7799999998,
+      "amount_real_mxn_2020": 960597.9574407144,
+      "amount_visual_mxn": 960597.9574407144,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GEORGETOWN UNIVERSITY",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 303039.0,
+      "amount_real_mxn_2020": 289968.7001933373,
+      "amount_visual_mxn": 289968.7001933373,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GOLDSMITHS UNIVERSITY OF LONDON",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 244880.22999999998,
+      "amount_real_mxn_2020": 234318.36165030074,
+      "amount_visual_mxn": 234318.36165030074,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "JOHNS HOPKINS UNIVERSITY",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 202026.0,
+      "amount_real_mxn_2020": 193312.4667955582,
+      "amount_visual_mxn": 193312.4667955582,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KARLSRUHE INSTITUTE OF TECHNOLOGY",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 380051.09940000006,
+      "amount_real_mxn_2020": 363659.20987089723,
+      "amount_visual_mxn": 363659.20987089723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LA TROBE UNIVERSITY",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 282535.07,
+      "amount_real_mxn_2020": 270349.12010313384,
+      "amount_visual_mxn": 270349.12010313384,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "PENNSYLVANIA STATE UNIVERSITY",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 877010.8599999999,
+      "amount_real_mxn_2020": 839184.7225262783,
+      "amount_visual_mxn": 839184.7225262783,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "PONTIFICIA UNIVERSIDAD CATOLICA DE CHILE",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 317637.1,
+      "amount_real_mxn_2020": 303937.17316972767,
+      "amount_visual_mxn": 303937.17316972767,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "RMIT UNIVERSITY",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 231762.18,
+      "amount_real_mxn_2020": 221766.10300513884,
+      "amount_visual_mxn": 221766.10300513884,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAT DARMSTADT",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 438014.52,
+      "amount_real_mxn_2020": 419122.6245803628,
+      "amount_visual_mxn": 419122.6245803628,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAT KAISERSLAUTERN",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 167609.35,
+      "amount_real_mxn_2020": 160380.23277449486,
+      "amount_visual_mxn": 160380.23277449486,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT HAMBURG",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 359874.4,
+      "amount_real_mxn_2020": 344352.7466789989,
+      "amount_visual_mxn": 344352.7466789989,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT HOHENHEIM",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 427543.88,
+      "amount_real_mxn_2020": 409103.5911523474,
+      "amount_visual_mxn": 409103.5911523474,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE LYON",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 372059.1,
+      "amount_real_mxn_2020": 356011.9114110821,
+      "amount_visual_mxn": 356011.9114110821,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DU QUEBEC",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 353364.08249999996,
+      "amount_real_mxn_2020": 338123.2240653388,
+      "amount_visual_mxn": 338123.2240653388,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF EAST ANGLIA",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 587833.61,
+      "amount_real_mxn_2020": 562479.9046382055,
+      "amount_visual_mxn": 562479.9046382055,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SASKATCHEWAN",
+      "scholarship_count": 4,
+      "amount_nominal_mxn": 337289.7944,
+      "amount_real_mxn_2020": 322742.23209107073,
+      "amount_visual_mxn": 322742.23209107073,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BABSON COLLEGE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 202026.0,
+      "amount_real_mxn_2020": 193312.4667955582,
+      "amount_visual_mxn": 193312.4667955582,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BOSTON UNIVERSITY",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 134684.0,
+      "amount_real_mxn_2020": 128874.97786370547,
+      "amount_visual_mxn": 128874.97786370547,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CENTRO AGRONOMICO TROPICAL DE INVESTIGACION Y ENSEÑANZA",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 223440.2,
+      "amount_real_mxn_2020": 213803.0562565852,
+      "amount_visual_mxn": 213803.0562565852,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CHALMERS UNIVERSITY OF TECHNOLOGY",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 283027.94,
+      "amount_real_mxn_2020": 270820.73224963737,
+      "amount_visual_mxn": 270820.73224963737,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CITY UNIVERSITY OF NEW YORK",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 361799.96400000004,
+      "amount_real_mxn_2020": 346195.2596565994,
+      "amount_visual_mxn": 346195.2596565994,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DARTMOUTH COLLEGE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 218861.5,
+      "amount_real_mxn_2020": 209421.83902852138,
+      "amount_visual_mxn": 209421.83902852138,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ERASMUS MUNDUS",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 470876.69999999995,
+      "amount_real_mxn_2020": 450567.434060725,
+      "amount_visual_mxn": 450567.434060725,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ESCUELA SUPERIOR DE ADMINISTRACION Y DIRECCION DE EMPRESAS-ESADE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 262426.78,
+      "amount_real_mxn_2020": 251108.11576240318,
+      "amount_visual_mxn": 251108.11576240318,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "FORSCHUNGSZENTRUM JULICH GMBH",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 242165.30000000002,
+      "amount_real_mxn_2020": 231720.52862149623,
+      "amount_visual_mxn": 231720.52862149623,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GOTTFRIED WILHELM LEIBNIZ UNIVERSITAET HANNOVER",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 302368.5769,
+      "amount_real_mxn_2020": 289327.1929454696,
+      "amount_visual_mxn": 289327.1929454696,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HUMBOLDT UNIVERSITAT ZU BERLIN",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 161516.2,
+      "amount_real_mxn_2020": 154549.88491305447,
+      "amount_visual_mxn": 154549.88491305447,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "IEP-INSTITUT D'ETUDES POLITIQUES DE PARIS-SCIENCES PO",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 242274.30000000002,
+      "amount_real_mxn_2020": 231824.8273695817,
+      "amount_visual_mxn": 231824.8273695817,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "IESEG-ECOLE DE MANAGEMENT",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 134364.3,
+      "amount_real_mxn_2020": 128569.06676496303,
+      "amount_visual_mxn": 128569.06676496303,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "IMPERIAL COLLEGE OF SCIENCE TECHNOLOGY AND MEDICINE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUT NATIONAL POLYTECHNIQUE DE TOULOUSE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 227493.92,
+      "amount_real_mxn_2020": 217681.93626657646,
+      "amount_visual_mxn": 217681.93626657646,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KAROLINSKA INSTITUTET",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 176052.18,
+      "amount_real_mxn_2020": 168458.91717172856,
+      "amount_visual_mxn": 168458.91717172856,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LAKEHEAD UNIVERSITY",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 218729.5,
+      "amount_real_mxn_2020": 209295.53228772062,
+      "amount_visual_mxn": 209295.53228772062,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MAX PLANCK INSTITUTE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 370750.83999999997,
+      "amount_real_mxn_2020": 354760.0776480518,
+      "amount_visual_mxn": 354760.0776480518,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NEW SCHOOL UNIVERSITY",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 292377.08,
+      "amount_real_mxn_2020": 279766.63681547064,
+      "amount_visual_mxn": 279766.63681547064,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "PARSONS THE NEW SCHOOL FOR DESIGN",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 134684.0,
+      "amount_real_mxn_2020": 128874.97786370547,
+      "amount_visual_mxn": 128874.97786370547,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SORBONNE UNIVERSITE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 253957.1,
+      "amount_real_mxn_2020": 243003.73942584745,
+      "amount_visual_mxn": 243003.73942584745,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TOKYO INSTITUTE OF TECHNOLOGY",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 306973.8312,
+      "amount_real_mxn_2020": 293733.8191666186,
+      "amount_visual_mxn": 293733.8191666186,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIERSITY OF CALIFORNIA",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 1374170.38,
+      "amount_real_mxn_2020": 1314901.3788086164,
+      "amount_visual_mxn": 1314901.3788086164,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE ALCALA",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 242219.80000000002,
+      "amount_real_mxn_2020": 231772.67799553895,
+      "amount_visual_mxn": 231772.67799553895,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE SALAMANCA",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 235547.38,
+      "amount_real_mxn_2020": 225388.04448452545,
+      "amount_visual_mxn": 225388.04448452545,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE VALENCIA",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 242165.30000000002,
+      "amount_real_mxn_2020": 231720.52862149623,
+      "amount_visual_mxn": 231720.52862149623,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DEL PAIS VASCO",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 181302.25650000002,
+      "amount_real_mxn_2020": 173482.55392680166,
+      "amount_visual_mxn": 173482.55392680166,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD POLITECNICA DE BARCELONA",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 273036.2285,
+      "amount_real_mxn_2020": 261259.9707754977,
+      "amount_visual_mxn": 261259.9707754977,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DE ALAGOAS",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 216423.35,
+      "amount_real_mxn_2020": 207088.84827031408,
+      "amount_visual_mxn": 207088.84827031408,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DE PELOTAS",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 260088.4,
+      "amount_real_mxn_2020": 248870.59184911774,
+      "amount_visual_mxn": 248870.59184911774,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DE SAO CARLOS",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 218432.5,
+      "amount_real_mxn_2020": 209011.3421209189,
+      "amount_visual_mxn": 209011.3421209189,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAIR MEDISCH CENTRUM GRONINGEN",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 262249.68000000005,
+      "amount_real_mxn_2020": 250938.65421849547,
+      "amount_visual_mxn": 250938.65421849547,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT BREMEN",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 242165.30000000002,
+      "amount_real_mxn_2020": 231720.52862149623,
+      "amount_visual_mxn": 231720.52862149623,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT DUSSELDORF",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 87922.41,
+      "amount_real_mxn_2020": 84130.25038218078,
+      "amount_visual_mxn": 84130.25038218078,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT GIESSEN",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 175748.49,
+      "amount_real_mxn_2020": 168168.3255496545,
+      "amount_visual_mxn": 168168.3255496545,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE MONTPELLIER",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 251127.0,
+      "amount_real_mxn_2020": 240295.70376569423,
+      "amount_visual_mxn": 240295.70376569423,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE SHERBROOKE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 480429.87999999995,
+      "amount_real_mxn_2020": 459708.5782280201,
+      "amount_visual_mxn": 459708.5782280201,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE TECHNOLOGIE DE COMPIEGNE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 251615.9,
+      "amount_real_mxn_2020": 240763.51714128128,
+      "amount_visual_mxn": 240763.51714128128,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE LORRAINE",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 104448.64,
+      "amount_real_mxn_2020": 99943.69166266327,
+      "amount_visual_mxn": 99943.69166266327,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ESSEX",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 588184.88,
+      "amount_real_mxn_2020": 562816.0240991227,
+      "amount_visual_mxn": 562816.0240991227,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF HOUSTON",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 233175.25,
+      "amount_real_mxn_2020": 223118.22623410344,
+      "amount_visual_mxn": 223118.22623410344,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF MARYLAND",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 238917.58000000002,
+      "amount_real_mxn_2020": 228612.88522578837,
+      "amount_visual_mxn": 228612.88522578837,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF MINNESOTA",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 202026.0,
+      "amount_real_mxn_2020": 193312.4667955582,
+      "amount_visual_mxn": 193312.4667955582,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF OREGON",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 218432.5,
+      "amount_real_mxn_2020": 209011.3421209189,
+      "amount_visual_mxn": 209011.3421209189,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SYDNEY",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 547837.5800000001,
+      "amount_real_mxn_2020": 524208.93346949876,
+      "amount_visual_mxn": 524208.93346949876,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF UTAH",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 350713.8542,
+      "amount_real_mxn_2020": 335587.30210358935,
+      "amount_visual_mxn": 335587.30210358935,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF WASHINGTON",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 262177.0,
+      "amount_real_mxn_2020": 250869.1089615152,
+      "amount_visual_mxn": 250869.1089615152,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "VRIJE UNIVERSITEIT BRUSSEL",
+      "scholarship_count": 3,
+      "amount_nominal_mxn": 242274.30000000002,
+      "amount_real_mxn_2020": 231824.8273695817,
+      "amount_visual_mxn": 231824.8273695817,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ARCHITECTURAL ASSOCIATION SCHOOL OF ARCHITECTURE",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 180070.86,
+      "amount_real_mxn_2020": 172304.2684832527,
+      "amount_visual_mxn": 172304.2684832527,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "AUCKLAND UNIVERSITY OF TECHNOLOGY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 134552.0,
+      "amount_real_mxn_2020": 128748.6711229047,
+      "amount_visual_mxn": 128748.6711229047,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CARNEGIE MELLON UNIVERITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 205418.88,
+      "amount_real_mxn_2020": 196559.00933137693,
+      "amount_visual_mxn": 196559.00933137693,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CURTIN UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 75497.4,
+      "amount_real_mxn_2020": 72241.14040099281,
+      "amount_visual_mxn": 72241.14040099281,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DAAD",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DEAKIN UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 132518.0,
+      "amount_real_mxn_2020": 126802.39907147487,
+      "amount_visual_mxn": 126802.39907147487,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "EADA BUSINESS SCHOOL",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 345355.74,
+      "amount_real_mxn_2020": 330460.2873957086,
+      "amount_visual_mxn": 330460.2873957086,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE CENTRALE DE NANTES",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 49700.0,
+      "amount_real_mxn_2020": 47556.4016499819,
+      "amount_visual_mxn": 47556.4016499819,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE NATIONALE SUPERIEURE DES INGENIEURS EN ARTS CHIMIQUES ET TECHNOLOGIQUES",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "EDINBURGH NAPIER UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 145416.03,
+      "amount_real_mxn_2020": 139144.12734458383,
+      "amount_visual_mxn": 139144.12734458383,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "FACHHOCHSCHULE LUBECK",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 86080.28,
+      "amount_real_mxn_2020": 82367.57283345882,
+      "amount_visual_mxn": 82367.57283345882,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "FLINDERS UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 143457.6,
+      "amount_real_mxn_2020": 137270.16590226244,
+      "amount_visual_mxn": 137270.16590226244,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GEORGE WASHINGTON UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 206793.2,
+      "amount_real_mxn_2020": 197874.0538769625,
+      "amount_visual_mxn": 197874.0538769625,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GERMAN CANCER RESEARCH CENTER",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 181668.68000000002,
+      "amount_real_mxn_2020": 173833.17330587594,
+      "amount_visual_mxn": 173833.17330587594,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HEC PARIS",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 183195.76,
+      "amount_real_mxn_2020": 175294.3891978609,
+      "amount_visual_mxn": 175294.3891978609,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 244011.61,
+      "amount_real_mxn_2020": 233487.20588367683,
+      "amount_visual_mxn": 233487.20588367683,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "IHE-DELFT INSTITUTE FOR WATER EDUCATION",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 212655.56,
+      "amount_real_mxn_2020": 203483.56588454376,
+      "amount_visual_mxn": 203483.56588454376,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INDIANA UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 246701.02,
+      "amount_real_mxn_2020": 236060.61960925988,
+      "amount_visual_mxn": 236060.61960925988,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUT NATIONAL POLYTECHNIQUE DE GRENOBLE",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 188308.4,
+      "amount_real_mxn_2020": 180186.5171924638,
+      "amount_visual_mxn": 180186.5171924638,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "JOHANNES GUTENBERG-UNIVERSITAET MAINZ",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 227305.34,
+      "amount_real_mxn_2020": 217501.4898636961,
+      "amount_visual_mxn": 217501.4898636961,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "JOHNS HOPKINS BLOOMBERG SCHOOL OF PUBLIC HEALTH",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KINGSTON UNIVERSITY LONDON",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 467838.45,
+      "amount_real_mxn_2020": 447660.22606649844,
+      "amount_visual_mxn": 447660.22606649844,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KUMAMOTO UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 186314.98,
+      "amount_real_mxn_2020": 178279.07489513772,
+      "amount_visual_mxn": 178279.07489513772,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LANCASTER UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 223788.03000000003,
+      "amount_real_mxn_2020": 214135.8840872877,
+      "amount_visual_mxn": 214135.8840872877,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LAVAL UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 275917.09339999995,
+      "amount_real_mxn_2020": 264016.58180736355,
+      "amount_visual_mxn": 264016.58180736355,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MEMORIAL UNIVERSITY OF NEWFOUNDLAND",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 168278.69,
+      "amount_real_mxn_2020": 161020.7036372795,
+      "amount_visual_mxn": 161020.7036372795,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MICHIGAN STATE UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 468264.5,
+      "amount_real_mxn_2020": 448067.9002098178,
+      "amount_visual_mxn": 448067.9002098178,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MOSCOW STATE UNIVERSITY OF GEODESY AND CARTOGRAPHY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 175830.84000000003,
+      "amount_real_mxn_2020": 168247.12373226768,
+      "amount_visual_mxn": 168247.12373226768,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "QUEEN'S UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 328649.98,
+      "amount_real_mxn_2020": 314475.05937904463,
+      "amount_visual_mxn": 314475.05937904463,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "QUEEN'S UNIVERSITY BELFAST",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 488758.6,
+      "amount_real_mxn_2020": 467678.0742753087,
+      "amount_visual_mxn": 467678.0742753087,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "RADBOUD UNIVERSITY NIJMEGEN",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ROBERT GORDON UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 129221.4,
+      "amount_real_mxn_2020": 123647.98390690082,
+      "amount_visual_mxn": 123647.98390690082,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "RUTGERS UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 240673.63999999998,
+      "amount_real_mxn_2020": 230293.20503829274,
+      "amount_visual_mxn": 230293.20503829274,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAT HAMBURG-HARBURG",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 161407.2,
+      "amount_real_mxn_2020": 154445.586164969,
+      "amount_visual_mxn": 154445.586164969,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TUFTS UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 219680.24,
+      "amount_real_mxn_2020": 210205.26615703056,
+      "amount_visual_mxn": 210205.26615703056,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE CADIZ",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 161407.2,
+      "amount_real_mxn_2020": 154445.586164969,
+      "amount_visual_mxn": 154445.586164969,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE REGENSBURG",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD LEUPHANA LUNEBURG",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 217501.61000000002,
+      "amount_real_mxn_2020": 208120.60210619154,
+      "amount_visual_mxn": 208120.60210619154,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD TECNICA DE MUNICH",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 83658.53,
+      "amount_real_mxn_2020": 80050.27473092676,
+      "amount_visual_mxn": 80050.27473092676,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE DE SAO PAULO",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 134552.0,
+      "amount_real_mxn_2020": 128748.6711229047,
+      "amount_visual_mxn": 128748.6711229047,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE ESTADUAL PAULISTA",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 151222.5,
+      "amount_real_mxn_2020": 144700.15992986693,
+      "amount_visual_mxn": 144700.15992986693,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DE LAVRAS",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 163649.2,
+      "amount_real_mxn_2020": 156590.88702008486,
+      "amount_visual_mxn": 156590.88702008486,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DE VICOSA",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 139493.75,
+      "amount_real_mxn_2020": 133477.27973163303,
+      "amount_visual_mxn": 133477.27973163303,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 111793.0,
+      "amount_real_mxn_2020": 106971.28389650756,
+      "amount_visual_mxn": 106971.28389650756,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT BONN",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 181614.18000000002,
+      "amount_real_mxn_2020": 173781.02393183322,
+      "amount_visual_mxn": 173781.02393183322,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT DES SAARLANDES",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT DUISBURG-ESSEN",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 161461.7,
+      "amount_real_mxn_2020": 154497.73553901172,
+      "amount_visual_mxn": 154497.73553901172,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT FREIBURG",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 195890.58000000002,
+      "amount_real_mxn_2020": 187441.6720709841,
+      "amount_visual_mxn": 187441.6720709841,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT JENA",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 161516.2,
+      "amount_real_mxn_2020": 154549.88491305447,
+      "amount_visual_mxn": 154549.88491305447,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT OLDENBURG",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 169736.3541,
+      "amount_real_mxn_2020": 162415.49758919823,
+      "amount_visual_mxn": 162415.49758919823,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE BOURGOGNE",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 170912.3,
+      "amount_real_mxn_2020": 163540.7240587968,
+      "amount_visual_mxn": 163540.7240587968,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE LILLE",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 170966.8,
+      "amount_real_mxn_2020": 163592.87343283952,
+      "amount_visual_mxn": 163592.87343283952,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE NANTES",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 180298.3,
+      "amount_real_mxn_2020": 172521.89882512938,
+      "amount_visual_mxn": 172521.89882512938,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE PICARDIE",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 181546.08000000002,
+      "amount_real_mxn_2020": 173715.861136011,
+      "amount_visual_mxn": 173715.861136011,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE TECHNOLOGIE DE TROYES",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 181546.08000000002,
+      "amount_real_mxn_2020": 173715.861136011,
+      "amount_visual_mxn": 173715.861136011,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE LAVAL",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 89254.0,
+      "amount_real_mxn_2020": 85404.40790477835,
+      "amount_visual_mxn": 85404.40790477835,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE PARIS SORBONNE",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 27021.1,
+      "amount_real_mxn_2020": 25855.659650388847,
+      "amount_visual_mxn": 25855.659650388847,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITEIT GENT",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 134135.40000000002,
+      "amount_real_mxn_2020": 128350.03939398355,
+      "amount_visual_mxn": 128350.03939398355,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF AALBORG",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 221535.42,
+      "amount_real_mxn_2020": 211980.4308494453,
+      "amount_visual_mxn": 211980.4308494453,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF APPLIED SCIENCES COLOGNE",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 120422.1,
+      "amount_real_mxn_2020": 115228.20432865764,
+      "amount_visual_mxn": 115228.20432865764,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CINCINNATI",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 134552.0,
+      "amount_real_mxn_2020": 128748.6711229047,
+      "amount_visual_mxn": 128748.6711229047,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF COLORADO",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 134552.0,
+      "amount_real_mxn_2020": 128748.6711229047,
+      "amount_visual_mxn": 128748.6711229047,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF GUELPH",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 428622.93610000005,
+      "amount_real_mxn_2020": 410136.10675183346,
+      "amount_visual_mxn": 410136.10675183346,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF MASSACHUSETTS",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 134552.0,
+      "amount_real_mxn_2020": 128748.6711229047,
+      "amount_visual_mxn": 128748.6711229047,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF MIAMI",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 134552.0,
+      "amount_real_mxn_2020": 128748.6711229047,
+      "amount_visual_mxn": 128748.6711229047,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF NEWCASTLE UPON TYNE",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 68768.7,
+      "amount_real_mxn_2020": 65802.65428867424,
+      "amount_visual_mxn": 65802.65428867424,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF NORTH TEXAS",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 202217.36,
+      "amount_real_mxn_2020": 193495.57329494934,
+      "amount_visual_mxn": 193495.57329494934,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF PITTSBURGH",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 151222.5,
+      "amount_real_mxn_2020": 144700.15992986693,
+      "amount_visual_mxn": 144700.15992986693,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF READING",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 145416.03,
+      "amount_real_mxn_2020": 139144.12734458383,
+      "amount_visual_mxn": 139144.12734458383,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SAINT ANDREWS",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 129221.4,
+      "amount_real_mxn_2020": 123647.98390690082,
+      "amount_visual_mxn": 123647.98390690082,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SOUTH CAROLINA",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 229357.03999999998,
+      "amount_real_mxn_2020": 219464.69850082422,
+      "amount_visual_mxn": 219464.69850082422,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF STUTTGART",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 161821.40000000002,
+      "amount_real_mxn_2020": 154841.92140769376,
+      "amount_visual_mxn": 154841.92140769376,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "VIENNA UNIVERSITY OF ECONOMICS AND BUSINESS ADMINISTRATION",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 161516.2,
+      "amount_real_mxn_2020": 154549.88491305447,
+      "amount_visual_mxn": 154549.88491305447,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "VRIJE UNIVERSITEIT AMSTERDAM",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 220461.14,
+      "amount_real_mxn_2020": 210952.48535317686,
+      "amount_visual_mxn": 210952.48535317686,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "WESTERN UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 334525.8924,
+      "amount_real_mxn_2020": 320097.5392614291,
+      "amount_visual_mxn": 320097.5392614291,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "YORK UNIVERSITY",
+      "scholarship_count": 2,
+      "amount_nominal_mxn": 238241.77000000002,
+      "amount_real_mxn_2020": 227966.22341896594,
+      "amount_visual_mxn": 227966.22341896594,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "AARHUS UNIVERSITET",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 335219.06,
+      "amount_real_mxn_2020": 320760.8100219191,
+      "amount_visual_mxn": 320760.8100219191,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ACADEMY OF PERFORMING ARTS IN PRAGUE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 107907.36000000002,
+      "amount_real_mxn_2020": 103253.23446980264,
+      "amount_visual_mxn": 103253.23446980264,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "AMERICAN FILM INSTITUTE CONSERVATORY AFI",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "AMERICAN UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ANGLIA RUSKIN UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 47979.399999999994,
+      "amount_real_mxn_2020": 45910.012421028994,
+      "amount_visual_mxn": 45910.012421028994,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ANHALT UNIVERSITY OF APPLIED SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ASTON UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 64610.7,
+      "amount_real_mxn_2020": 61823.99195345041,
+      "amount_visual_mxn": 61823.99195345041,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "AUSTRALIAN NATIONAL UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BAYLOR COLLEGE OF MEDICINE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BI NORWEGIAN BUSINESS SCHOOL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BIRMINGHAM CITY UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80805.33,
+      "amount_real_mxn_2020": 77320.13539113343,
+      "amount_visual_mxn": 77320.13539113343,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BOWLING GREEN STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BRANDENBURG UNIVERSITY OF TECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BRANDENBURGISCHE TECHNISCHE UNIVERSITAT COTTBUS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "BROWN UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 218370.46,
+      "amount_real_mxn_2020": 208951.97795274257,
+      "amount_visual_mxn": 208951.97795274257,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CENTRO DE ESTUDIOS Y DOCUMENTACION LATINOAMERICANOS-CEDLA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 26792.199999999997,
+      "amount_real_mxn_2020": 25636.63227940935,
+      "amount_visual_mxn": 25636.63227940935,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CHATHAM UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 131412.25,
+      "amount_real_mxn_2020": 125744.3408999564,
+      "amount_visual_mxn": 125744.3408999564,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CITY UNIVERSITY OF HONG KONG",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CLAUSTHAL UNIVERSITY OF TECNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "COLORADO SCHOOL OF MINES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "COLUMBIA  UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CONCORDIA UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "CZECH TECHNICAL UNIVERSITY IN PRAGUE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 95348.58,
+      "amount_real_mxn_2020": 91236.12408924408,
+      "amount_visual_mxn": 91236.12408924408,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DARMSTADT UNIVERSITY OF APPLIED SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DE MONTFORT UNIVERSITY LEICESTER",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "DESIGN ACADEMY OF EINDHOVEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE CENTRALE DE LILLE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE CENTRALE DE LYON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 90300.99999999999,
+      "amount_real_mxn_2020": 86406.25000794797,
+      "amount_visual_mxn": 86406.25000794797,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE D ECONOMIE DE PARIS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100910.58000000002,
+      "amount_real_mxn_2020": 96558.2308493487,
+      "amount_visual_mxn": 96558.2308493487,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE DOCTORALE BIO SORBONNE PARIS CITE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 26792.199999999997,
+      "amount_real_mxn_2020": 25636.63227940935,
+      "amount_visual_mxn": 25636.63227940935,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE NATIONALE SUPERIEURE DE CHIMIE-MONTPELLIER",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 53377.3,
+      "amount_real_mxn_2020": 51075.09693745631,
+      "amount_visual_mxn": 51075.09693745631,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE NATIONALE SUPERIEURE DES MINES DE PARIS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 85242.42,
+      "amount_real_mxn_2020": 81565.8503649185,
+      "amount_visual_mxn": 81565.8503649185,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE NORMALE SUPERIEURE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE NORMALE SUPERIEURE PARIS-SACLAY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ECOLE POLYTECHNIQUE DE MONTREAL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 87935.7738,
+      "amount_real_mxn_2020": 84143.03779144374,
+      "amount_visual_mxn": 84143.03779144374,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "EM BUSINESS SCHOOL-ECOLE DE MANAGEMENT DE LYON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 26803.1,
+      "amount_real_mxn_2020": 25647.062154217903,
+      "amount_visual_mxn": 25647.062154217903,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "EMAC-ECOLE DES MINES D'ALBI-CARMAUX",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 385667.6,
+      "amount_real_mxn_2020": 369033.4665791661,
+      "amount_visual_mxn": 369033.4665791661,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "EMORY UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ENS-LYON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 95127.24,
+      "amount_real_mxn_2020": 91024.33064978318,
+      "amount_visual_mxn": 91024.33064978318,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ESCUELA SUPERIOR DE MUSICA DE CATALUÑA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ESIEE PARIS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ESSLINGEN UNIVERSITY OF APPLIED SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 53453.6,
+      "amount_real_mxn_2020": 51148.10606111614,
+      "amount_visual_mxn": 51148.10606111614,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "EURECOM",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "FLORIDA INTERNATIONAL UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "FLORIDA STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 27555.0,
+      "amount_real_mxn_2020": 26366.53214215797,
+      "amount_visual_mxn": 26366.53214215797,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "FRANKFURT SCHOOL OF FINANCE AND MANAGEMENT",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 187834.08000000002,
+      "amount_real_mxn_2020": 179732.65497051974,
+      "amount_visual_mxn": 179732.65497051974,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GEORGIA STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GERMAN INSTITUTE OF GLOBAL AND AREA STUDIES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GERMAN RESEARCH CENTRE FOR GEOSCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GOETHE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100842.48000000001,
+      "amount_real_mxn_2020": 96493.0680535265,
+      "amount_visual_mxn": 96493.0680535265,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GRADUATE INSTITUTE OF INTERNATIONAL AND DEVELOPMENT STUDIES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 69138.06,
+      "amount_real_mxn_2020": 66156.08351429673,
+      "amount_visual_mxn": 66156.08351429673,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GRENOBLE ECOLE DE MANAGEMENT",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "GRENOBLE GRADUATE SCHOOL OF BUSINESS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": -174.40000000000146,
+      "amount_real_mxn_2020": -166.8779969367588,
+      "amount_visual_mxn": -166.8779969367588,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HANDONG GLOBAL UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HAUTE ECOLE D ART ET DE DESIGN DE GENEVE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HAW HAMBURG",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 89077.62400000001,
+      "amount_real_mxn_2020": 85235.63913420658,
+      "amount_visual_mxn": 85235.63913420658,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HELMHOLTZ -CENTRE FOR ENVIROMENTAL RESEARCH-UFZ",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100842.48000000001,
+      "amount_real_mxn_2020": 96493.0680535265,
+      "amount_visual_mxn": 96493.0680535265,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HERIOT-WATT UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HOCHSCHULE FRESENIUS UNIVERSITY OF APPLIED SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HOCHSCHULE FUR WIRTSCHAFT UND UMWELT NURTINGEN-GEISLINGEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HOCHSCHULE OFFENBURG",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "HONG KONG ACADEMY FOR PERFORMING ARTS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "IE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 158811.95,
+      "amount_real_mxn_2020": 151962.2712478238,
+      "amount_visual_mxn": 151962.2712478238,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INIVERSITAT GOTTINGEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 34118.1,
+      "amount_real_mxn_2020": 32646.560706926506,
+      "amount_visual_mxn": 32646.560706926506,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INRA-MONTPELLIER",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSA ROUEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 104543.64,
+      "amount_real_mxn_2020": 100034.59424126988,
+      "amount_visual_mxn": 100034.59424126988,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSA TOULOUSE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUT DE RECHERCHE POUR LE DEVELOPPEMENT - IRD",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 110258.88,
+      "amount_real_mxn_2020": 105503.3316450132,
+      "amount_visual_mxn": 105503.3316450132,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUT NATIONAL DES SCIENCES APPLIQUEES DE LYON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUT POLYTECHNIQUE DE SCIENCES AVANCEES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 358576.85,
+      "amount_real_mxn_2020": 343111.16098561994,
+      "amount_visual_mxn": 343111.16098561994,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUTO DE ESTUDIOS SUPERIORES DE LA EMPRESA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 176851.86000000002,
+      "amount_real_mxn_2020": 169224.1063723615,
+      "amount_visual_mxn": 169224.1063723615,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "INSTITUTO UNIVERSITARIO ORTEGA Y GASSET",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "IOWA STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 132489.61,
+      "amount_real_mxn_2020": 126775.2335535102,
+      "amount_visual_mxn": 126775.2335535102,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "JAMES COOK UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "JOHANN WOLFGANG GOETHE UNIVERSITAT",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "JOHANNES KEPLER UNIVERSITY LINZ",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 99159.64,
+      "amount_real_mxn_2020": 94882.8102073966,
+      "amount_visual_mxn": 94882.8102073966,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "JUSTUS LIEBIG UNIVERSITAT GIESSEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100842.48000000001,
+      "amount_real_mxn_2020": 96493.0680535265,
+      "amount_visual_mxn": 96493.0680535265,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KANSAS STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 199198.81,
+      "amount_real_mxn_2020": 190607.2156249181,
+      "amount_visual_mxn": 190607.2156249181,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KEDGE BUSINESS SCHOOL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KEMPTEN UNIVERSITY OF APPLIED SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 53453.6,
+      "amount_real_mxn_2020": 51148.10606111614,
+      "amount_visual_mxn": 51148.10606111614,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KOREA ADVANCED INSTITUTE OF SCIENCE AND TECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KUHNE LOGISTICS UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100842.48000000001,
+      "amount_real_mxn_2020": 96493.0680535265,
+      "amount_visual_mxn": 96493.0680535265,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KYH ROYAL INSTITUTE OF TECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KYOTO UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "KYUSHU INSTITUTE OF TECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LONDON SCHOOL OF HYGIENE AND TROPICAL MEDICINE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LOUGHBOROUGH UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 393135.43000000005,
+      "amount_real_mxn_2020": 376179.20345912164,
+      "amount_visual_mxn": 376179.20345912164,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LOUISIANA STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 267640.851,
+      "amount_real_mxn_2020": 256097.29996174967,
+      "amount_visual_mxn": 256097.29996174967,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "LOYOLA COLLEGE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 193222.0,
+      "amount_real_mxn_2020": 184888.18993184713,
+      "amount_visual_mxn": 184888.18993184713,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MAASTRICHT UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MANHATTAN SCHOOL OF MUSIC",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MASSEY UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MEDIZINISCHE HOCHSCHULE HANNOVER",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MEDIZINISCHE UNIVERSITAT WIEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 99212.27,
+      "amount_real_mxn_2020": 94933.17023594465,
+      "amount_visual_mxn": 94933.17023594465,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MILLS COLLEGE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MINES PARIS TECH",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MINISTERIO DE SALUD PUBLICA-CUBA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MONTPELLIER BUSINESS SCHOOL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MUSIKENE-CENTRO SUPERIOR DE MUSICA DEL PAIS VASCO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "MÜNSTER UNIVERSITY OF APPLIED SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 87771.44,
+      "amount_real_mxn_2020": 83985.79183173615,
+      "amount_visual_mxn": 83985.79183173615,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NANYANG TECHNOLOGICAL UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NATIONAL AEROSPACE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NATIONAL CHENGCHI UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 17578.4,
+      "amount_real_mxn_2020": 16820.230397666837,
+      "amount_visual_mxn": 16820.230397666837,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NORTHEASTERN UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NORTHERN ARIZONA UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "NYENRODE BUSINESS UNIVERSITEIT",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 55862.44,
+      "amount_real_mxn_2020": 53453.050981650194,
+      "amount_visual_mxn": 53453.050981650194,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "OKLAHOMA STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 104773.15,
+      "amount_real_mxn_2020": 100254.20530249095,
+      "amount_visual_mxn": 100254.20530249095,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "OREGON STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 186051.14,
+      "amount_real_mxn_2020": 178026.61451261595,
+      "amount_visual_mxn": 178026.61451261595,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "OSLO NATIONAL ACADEMY OF THE ARTS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100910.58000000002,
+      "amount_real_mxn_2020": 96558.2308493487,
+      "amount_visual_mxn": 96558.2308493487,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "OTTO VON GUERICKE UNIVERSITY MAGDEBURG",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 27304.5,
+      "amount_real_mxn_2020": 26126.83639541108,
+      "amount_visual_mxn": 26126.83639541108,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "OXFORD UNIVERSITY / LINCOLN COLLEGE- OXFORD",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "PARDEE RAND GRADUATE SCHOOL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "POLYTECHNIQUE MONTRÉAL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 221061.0264,
+      "amount_real_mxn_2020": 211526.49820192458,
+      "amount_visual_mxn": 211526.49820192458,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "PRINCETON UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "QUEEN S UNIVERSITY BELFAST",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 402611.51,
+      "amount_real_mxn_2020": 385246.5730073582,
+      "amount_visual_mxn": 385246.5730073582,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "QUEENSLAND UNIVERSITY OF TECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 79726.88,
+      "amount_real_mxn_2020": 76288.19975009876,
+      "amount_visual_mxn": 76288.19975009876,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "RHEINISCH-WESTFÄLISCHE TECHNISCHE HOCHSCHULE AACHEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ROTTERDAM UNIVERSITY OF APPLIED SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ROYAL COLLEGE OF MUSIC",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 73840.79999999999,
+      "amount_real_mxn_2020": 70655.9908039433,
+      "amount_visual_mxn": 70655.9908039433,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ROYAL DANISH ACADEMY OF FINE ARTS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "RUTGERS BIOMEDICAL AND HEALTH SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 224968.48,
+      "amount_real_mxn_2020": 215265.4203916684,
+      "amount_visual_mxn": 215265.4203916684,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "RYERSON UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SAINT LOUIS UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SCHOOL OF ART INSTITUTE OF CHICAGO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SCUOLA NORMALE SUPERIORE DI PISA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SIMON FRASER UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 88705.0505,
+      "amount_real_mxn_2020": 84879.13500925405,
+      "amount_visual_mxn": 84879.13500925405,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SKOLKOVO INSTITUTE OF SCIENCE AND TECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ST. CATHERINE'S COLLEGE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 64610.7,
+      "amount_real_mxn_2020": 61823.99195345041,
+      "amount_visual_mxn": 61823.99195345041,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "STATE UNIVERSITY OF NEW YORK",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 134322.3284,
+      "amount_real_mxn_2020": 128528.90543161308,
+      "amount_visual_mxn": 128528.90543161308,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "STUTTGART TECHNOLOGY UNIVERSITY OF APPLIED SCIENCES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SUPELEC",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 90178.3,
+      "amount_real_mxn_2020": 86288.8421511582,
+      "amount_visual_mxn": 86288.8421511582,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SWINBURNE UNIVERSITY OF TECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "SWISS FEDERAL INSTITUTE OF TECHNOLOGY ZURICH",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 33477.96,
+      "amount_real_mxn_2020": 32034.030426197744,
+      "amount_visual_mxn": 32034.030426197744,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TAMPERE UNIVERSITY OF TECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100842.48000000001,
+      "amount_real_mxn_2020": 96493.0680535265,
+      "amount_visual_mxn": 96493.0680535265,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TARTU ULIKOOL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TEACHERS COLLEGE COLUMBIA UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAT BRAUNSCHWEIG",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80725.4,
+      "amount_real_mxn_2020": 77243.65283210156,
+      "amount_visual_mxn": 77243.65283210156,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITAT DORTMUND",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITEIT DELFT",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TECHNISCHE UNIVERSITÄT BERLIN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TEL AVIV UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TEXAS TECH UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TIANJIN UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "TRENT UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84012.5,
+      "amount_real_mxn_2020": 80388.97773881497,
+      "amount_visual_mxn": 80388.97773881497,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ULM UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 154813.1,
+      "amount_real_mxn_2020": 148135.89465349723,
+      "amount_visual_mxn": 148135.89465349723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD AGRARIA DE LA HABANA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD CATOLICA PORTUGUESA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 194765.1,
+      "amount_real_mxn_2020": 186364.73486919294,
+      "amount_visual_mxn": 186364.73486919294,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE BUENOS AIRES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE CANTABRIA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 86046.9452,
+      "amount_real_mxn_2020": 82335.67578843424,
+      "amount_visual_mxn": 82335.67578843424,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE CASTILLA-LA MANCHA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 101402.7884,
+      "amount_real_mxn_2020": 97029.20993115744,
+      "amount_visual_mxn": 97029.20993115744,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE CORDOBA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 87074.54000000001,
+      "amount_real_mxn_2020": 83318.94965246307,
+      "amount_visual_mxn": 83318.94965246307,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE LA HABANA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE LA LAGUNA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE MURCIA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 90809.96,
+      "amount_real_mxn_2020": 86893.25818065976,
+      "amount_visual_mxn": 86893.25818065976,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE OVIEDO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE PUERTO RICO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE SANTIAGO DE COMPOSTELA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE SEVILLA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE VALLADOLID",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD DE VIGO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 95127.24,
+      "amount_real_mxn_2020": 91024.33064978318,
+      "amount_visual_mxn": 91024.33064978318,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD FEDERAL DE RORAIMA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD GEORG AUGUST GUTTINGEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD INTERNACIONAL DE CATALUÑA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD NACIONAL DE CORDOBA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD POLITÉCNICA DE BARCELONA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD POLITÉCNICA DE CATALUNYA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD RAMON LLULL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDAD ROVIRA I VIRGILI",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 94167.2274,
+      "amount_real_mxn_2020": 90105.72411467969,
+      "amount_visual_mxn": 90105.72411467969,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE DE BRASILIA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 96067.4,
+      "amount_real_mxn_2020": 91923.94084244408,
+      "amount_visual_mxn": 91923.94084244408,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE DE MINHO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE DO MINHO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE ESTADUAL DE FEIRA DE SANTANA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DO ESPIRITO SANTO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSIDADE TECNOLOGICA FEDERAL DO PARANA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 124978.70000000001,
+      "amount_real_mxn_2020": 119588.27474632984,
+      "amount_visual_mxn": 119588.27474632984,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITA COMMERCIALE LUIGI BOCCONI",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITA DEGLI STUDI DI FERRARA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITA DEGLI STUDI DI MILANO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITA DEGLI STUDI DI MODENA E REGGIO EMILIA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITA DELLA SVIZZERA ITALIANA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITA DI BOLOGNA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 93481.3196,
+      "amount_real_mxn_2020": 89449.40003355987,
+      "amount_visual_mxn": 89449.40003355987,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITA PONTIFICIA SALESIANA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT BASEL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT BOCHUM",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 88022.929,
+      "amount_real_mxn_2020": 84226.4339221698,
+      "amount_visual_mxn": 84226.4339221698,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT GREIFSWALD",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100910.58000000002,
+      "amount_real_mxn_2020": 96558.2308493487,
+      "amount_visual_mxn": 96558.2308493487,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT KIEL",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 201140.03999999998,
+      "amount_real_mxn_2020": 192464.71891616544,
+      "amount_visual_mxn": 192464.71891616544,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT LUZERN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 107884.47,
+      "amount_real_mxn_2020": 103231.33173270467,
+      "amount_visual_mxn": 103231.33173270467,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT MAGDEBURG",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 83951.042,
+      "amount_real_mxn_2020": 80330.17046854123,
+      "amount_visual_mxn": 80330.17046854123,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT POLITECNICA DE VALENCIA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 95595.35999999999,
+      "amount_real_mxn_2020": 91472.26028238656,
+      "amount_visual_mxn": 91472.26028238656,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITAT WURZBURG",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE BORDEAUX MONTAIGNE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE BRETAGNE OCCIDENTALE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE COTE D'AZUR",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 66697.14,
+      "amount_real_mxn_2020": 63820.442228271095,
+      "amount_visual_mxn": 63820.442228271095,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE D AVIGNON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE D ORLEANS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80725.4,
+      "amount_real_mxn_2020": 77243.65283210156,
+      "amount_visual_mxn": 77243.65283210156,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE GENEVE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 181274.37000000002,
+      "amount_real_mxn_2020": 173455.87019250361,
+      "amount_visual_mxn": 173455.87019250361,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE PAU ET DES PAYS DE L  ADOUR",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80725.4,
+      "amount_real_mxn_2020": 77243.65283210156,
+      "amount_visual_mxn": 77243.65283210156,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE POITIERS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE REIMS CHAMPAGNE-ARDENNE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE TOULON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DE TOURS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100842.48000000001,
+      "amount_real_mxn_2020": 96493.0680535265,
+      "amount_visual_mxn": 96493.0680535265,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE DU QUEBEC / ECOLE DE TECHNOLOGIE SUPERIURE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE EVRY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE GRENOBLE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 42029.76,
+      "amount_real_mxn_2020": 40216.984865439495,
+      "amount_visual_mxn": 40216.984865439495,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE LIBRE DE BRUXELLES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE NICE SOPHIA ANTIPOLIS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE PARIS DIDEROT",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 81063.3,
+      "amount_real_mxn_2020": 77566.97895116654,
+      "amount_visual_mxn": 77566.97895116654,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE PARIS SCIENCES ET LETTRES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE PAU ET DES PAYS DE L'ADOUR",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE RENNES 1",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 229258.1,
+      "amount_real_mxn_2020": 219370.02585737855,
+      "amount_visual_mxn": 219370.02585737855,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE SAVOIE MONT BLANC",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80703.6,
+      "amount_real_mxn_2020": 77222.7930824845,
+      "amount_visual_mxn": 77222.7930824845,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITE TOULOUSE 3 PAUL SABATIER",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY COLLEGE CORK",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY COLLEGE DUBLIN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 131897.46,
+      "amount_real_mxn_2020": 126208.62342801652,
+      "amount_visual_mxn": 126208.62342801652,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY MEDICAL CENTER HAMBURG-EPPENDORF",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ALABAMA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 180502.0,
+      "amount_real_mxn_2020": 172716.81309104693,
+      "amount_visual_mxn": 172716.81309104693,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ANTWERP",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF BRIGHTON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 68768.7,
+      "amount_real_mxn_2020": 65802.65428867424,
+      "amount_visual_mxn": 65802.65428867424,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CALIFORNIA AT DAVIS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CALIFORNIA, LOS ANGELES (UCLA)",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CAMBRIDGE / TRINITY HALL-CAMBRIDGE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CANTERBURY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF CENTRAL FLORIDA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF DENVER",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF DUBLIN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 53377.3,
+      "amount_real_mxn_2020": 51075.09693745631,
+      "amount_visual_mxn": 51075.09693745631,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF EAST LONDON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF EXETER",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 42303.8,
+      "amount_real_mxn_2020": 40479.205314295854,
+      "amount_visual_mxn": 40479.205314295854,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF GEORGIA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF HELSINKI",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF HERTFORDSHIRE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 89430.33,
+      "amount_real_mxn_2020": 85573.1326593647,
+      "amount_visual_mxn": 85573.1326593647,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF HONG KONG",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 144157.2,
+      "amount_real_mxn_2020": 137939.59162850646,
+      "amount_visual_mxn": 137939.59162850646,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF IOWA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF LIMERICK",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF LINCOLN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF LONDON / KING S COLLEGE LONDON-U. OF LONDON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF LONDON / ROYAL HOLLOWAY-UIVERSITY OF LONDON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF MISSOURI",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF NEBRASKA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67342.0,
+      "amount_real_mxn_2020": 64437.488931852735,
+      "amount_visual_mxn": 64437.488931852735,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF NEW ENGLAND",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84012.5,
+      "amount_real_mxn_2020": 80388.97773881497,
+      "amount_visual_mxn": 80388.97773881497,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF NEW MEXICO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF PARIS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF SOUTHERN MISSISSIPPI",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 84177.5,
+      "amount_real_mxn_2020": 80546.86116481591,
+      "amount_visual_mxn": 80546.86116481591,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF STRATHCLYDE",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 64610.7,
+      "amount_real_mxn_2020": 61823.99195345041,
+      "amount_visual_mxn": 61823.99195345041,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF TECHNOLOGY SYDNEY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 109730.62,
+      "amount_real_mxn_2020": 104997.85589580557,
+      "amount_visual_mxn": 104997.85589580557,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF THE ARTS HELSINKI",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF TOKYO",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 75733.48000000001,
+      "amount_real_mxn_2020": 72467.03809317648,
+      "amount_visual_mxn": 72467.03809317648,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF VIRGINIA",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF WISCONSIN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 67210.0,
+      "amount_real_mxn_2020": 64311.18219105197,
+      "amount_visual_mxn": 64311.18219105197,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITY OF ZURICH",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 100910.58000000002,
+      "amount_real_mxn_2020": 96558.2308493487,
+      "amount_visual_mxn": 96558.2308493487,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITÄT WIEN",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITÉ COTE D AZUR",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UNIVERSITÉ PARIS DESCARTES",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "UPPSALA UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 80758.1,
+      "amount_real_mxn_2020": 77274.94245652723,
+      "amount_visual_mxn": 77274.94245652723,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "VANDERBILT UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 325128.07720000006,
+      "amount_real_mxn_2020": 311105.05889355176,
+      "amount_visual_mxn": 311105.05889355176,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "VICTORIA UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 280341.64999999997,
+      "amount_real_mxn_2020": 268250.30395610956,
+      "amount_visual_mxn": 268250.30395610956,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "VICTORIA UNIVERSITY OF WELLINGTON",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 82003.35,
+      "amount_real_mxn_2020": 78466.48388821013,
+      "amount_visual_mxn": 78466.48388821013,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "VIENNA DIPLOMATIC ACADEMY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 167057.0,
+      "amount_real_mxn_2020": 159851.70604509106,
+      "amount_visual_mxn": 159851.70604509106,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "VIRGINIA TECH",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 50561.72,
+      "amount_real_mxn_2020": 48380.955018791195,
+      "amount_visual_mxn": 48380.955018791195,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "WAGENINGEN UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 65849.29999999999,
+      "amount_real_mxn_2020": 63009.170204630835,
+      "amount_visual_mxn": 63009.170204630835,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "WAGENINGEN UNIVERSITY-PLANT BIOTECHNOLOGY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "WASHINGTON STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 191506.495,
+      "amount_real_mxn_2020": 183246.67595171527,
+      "amount_visual_mxn": 183246.67595171527,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "WAYNE STATE UNIVERSITY",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 423905.60000000003,
+      "amount_real_mxn_2020": 405622.232902949,
+      "amount_visual_mxn": 405622.232902949,
+      "amount_visual_basis": "real_2020"
+    },
+    {
+      "source_year": 2021,
+      "institution_canonical": "ZURICH UNIVERSITY OF THE ARTS",
+      "scholarship_count": 1,
+      "amount_nominal_mxn": 0.0,
+      "amount_real_mxn_2020": 0.0,
+      "amount_visual_mxn": 0.0,
+      "amount_visual_basis": "real_2020"
+    },
+    {
       "source_year": 2022,
       "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS",
       "scholarship_count": 319,
@@ -99849,6 +104948,41 @@ window.__SITE_SUMMARY__ = {
       "scholarship_count": 219
     },
     {
+      "source_year": 2021,
+      "knowledge_area_label": "Ingenierías",
+      "scholarship_count": 709
+    },
+    {
+      "source_year": 2021,
+      "knowledge_area_label": "Medicina y salud",
+      "scholarship_count": 529
+    },
+    {
+      "source_year": 2021,
+      "knowledge_area_label": "Ciencias sociales",
+      "scholarship_count": 480
+    },
+    {
+      "source_year": 2021,
+      "knowledge_area_label": "Biología y química",
+      "scholarship_count": 369
+    },
+    {
+      "source_year": 2021,
+      "knowledge_area_label": "Humanidades y conducta",
+      "scholarship_count": 332
+    },
+    {
+      "source_year": 2021,
+      "knowledge_area_label": "Físico-matemáticas y ciencias de la Tierra",
+      "scholarship_count": 245
+    },
+    {
+      "source_year": 2021,
+      "knowledge_area_label": "Biotecnología y agropecuarias",
+      "scholarship_count": 139
+    },
+    {
       "source_year": 2022,
       "knowledge_area_label": "Medicina y salud",
       "scholarship_count": 779
@@ -100226,6 +105360,26 @@ window.__SITE_SUMMARY__ = {
       "scholarship_count": 21
     },
     {
+      "source_year": 2021,
+      "degree_label": "Doctorado",
+      "scholarship_count": 1719
+    },
+    {
+      "source_year": 2021,
+      "degree_label": "Maestría",
+      "scholarship_count": 907
+    },
+    {
+      "source_year": 2021,
+      "degree_label": "Especialidad",
+      "scholarship_count": 177
+    },
+    {
+      "source_year": 2021,
+      "degree_label": "CONVENIO",
+      "scholarship_count": 2
+    },
+    {
       "source_year": 2022,
       "degree_label": "Doctorado",
       "scholarship_count": 1339
@@ -100344,105 +105498,105 @@ window.__SITE_SUMMARY__ = {
   "top_countries": [
     {
       "country_canonical": "Reino Unido",
-      "scholarship_count": 15630,
-      "amount_real_mxn_2020": 4624498447.668609
+      "scholarship_count": 16307,
+      "amount_real_mxn_2020": 4692859585.758289
     },
     {
       "country_canonical": "Estados Unidos",
-      "scholarship_count": 14862,
-      "amount_real_mxn_2020": 4103859022.8914957
+      "scholarship_count": 15434,
+      "amount_real_mxn_2020": 4173097858.210678
     },
     {
       "country_canonical": "España",
-      "scholarship_count": 7971,
-      "amount_real_mxn_2020": 1524869256.333606
+      "scholarship_count": 8233,
+      "amount_real_mxn_2020": 1542775358.7492378
     },
     {
       "country_canonical": "Alemania",
-      "scholarship_count": 5491,
-      "amount_real_mxn_2020": 1081032406.9510071
+      "scholarship_count": 5748,
+      "amount_real_mxn_2020": 1101482460.2553933
     },
     {
       "country_canonical": "Canadá",
-      "scholarship_count": 4097,
-      "amount_real_mxn_2020": 867138454.5051001
+      "scholarship_count": 4363,
+      "amount_real_mxn_2020": 889422470.0547845
     },
     {
       "country_canonical": "Francia",
-      "scholarship_count": 3842,
-      "amount_real_mxn_2020": 767144862.0516844
+      "scholarship_count": 4032,
+      "amount_real_mxn_2020": 781937699.4726195
     },
     {
       "country_canonical": "Países Bajos",
-      "scholarship_count": 3138,
-      "amount_real_mxn_2020": 925822516.468706
+      "scholarship_count": 3273,
+      "amount_real_mxn_2020": 942735702.2213627
     },
     {
       "country_canonical": "Cuba",
-      "scholarship_count": 2954,
-      "amount_real_mxn_2020": 229242376.11917365
+      "scholarship_count": 3132,
+      "amount_real_mxn_2020": 229322922.98033848
     },
     {
       "country_canonical": "Australia",
-      "scholarship_count": 1624,
-      "amount_real_mxn_2020": 523206651.1048421
+      "scholarship_count": 1688,
+      "amount_real_mxn_2020": 529246184.2126912
     },
     {
       "country_canonical": "Italia",
-      "scholarship_count": 699,
-      "amount_real_mxn_2020": 101499309.08238503
+      "scholarship_count": 722,
+      "amount_real_mxn_2020": 103008287.17524774
     }
   ],
   "top_institutions": [
     {
       "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS",
-      "scholarship_count": 1744,
+      "scholarship_count": 1919,
       "amount_real_mxn_2020": 130768005.05824172
     },
     {
       "institution_canonical": "UNIVERSITY OF SHEFFIELD",
-      "scholarship_count": 1352,
-      "amount_real_mxn_2020": 431110673.55629134
+      "scholarship_count": 1401,
+      "amount_real_mxn_2020": 435502365.488488
     },
     {
       "institution_canonical": "UNIVERSITY OF CALIFORNIA",
-      "scholarship_count": 1282,
-      "amount_real_mxn_2020": 431550460.0211213
+      "scholarship_count": 1394,
+      "amount_real_mxn_2020": 450536629.84051514
     },
     {
       "institution_canonical": "UNIVERSIDAD POLITECNICA DE CATALUÑA",
-      "scholarship_count": 1245,
-      "amount_real_mxn_2020": 293008182.56033456
+      "scholarship_count": 1297,
+      "amount_real_mxn_2020": 297218387.9589032
     },
     {
       "institution_canonical": "UNIVERSITY OF LONDON",
-      "scholarship_count": 1224,
-      "amount_real_mxn_2020": 359158704.04426944
+      "scholarship_count": 1288,
+      "amount_real_mxn_2020": 366201238.0880584
     },
     {
       "institution_canonical": "UNIVERSITY OF TEXAS",
-      "scholarship_count": 1209,
-      "amount_real_mxn_2020": 275062890.2686309
+      "scholarship_count": 1283,
+      "amount_real_mxn_2020": 283462140.50277317
     },
     {
       "institution_canonical": "UNIVERSITY OF MANCHESTER",
-      "scholarship_count": 1161,
-      "amount_real_mxn_2020": 388730657.3548195
+      "scholarship_count": 1180,
+      "amount_real_mxn_2020": 392234261.26411706
     },
     {
       "institution_canonical": "UNIVERSITY COLLEGE LONDON",
-      "scholarship_count": 1108,
-      "amount_real_mxn_2020": 387182892.4813754
+      "scholarship_count": 1141,
+      "amount_real_mxn_2020": 390290879.8620094
     },
     {
       "institution_canonical": "UNIVERSITY OF EDINBURGH",
-      "scholarship_count": 960,
-      "amount_real_mxn_2020": 278187492.8417034
+      "scholarship_count": 1012,
+      "amount_real_mxn_2020": 282140825.4987341
     },
     {
       "institution_canonical": "UNIVERSITY OF NOTTINGHAM",
-      "scholarship_count": 820,
-      "amount_real_mxn_2020": 248990619.7350406
+      "scholarship_count": 857,
+      "amount_real_mxn_2020": 250927991.43844956
     }
   ]
 };
