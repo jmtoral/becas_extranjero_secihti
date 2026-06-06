@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-04T23:39:12.952481+00:00",
+  "updated_at_utc": "2026-06-06T01:30:41.754204+00:00",
   "kpis": {
     "scholarship_count": 66095,
     "amount_real_mxn_2020": 15799279700.851305,
@@ -74472,7 +74472,7 @@
     },
     {
       "source_year": 2023,
-      "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS, S.A.",
+      "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS",
       "scholarship_count": 422,
       "amount_nominal_mxn": 39204838.441,
       "amount_real_mxn_2020": 33607906.66119271,
@@ -79215,7 +79215,7 @@
     },
     {
       "source_year": 2024,
-      "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS, S.A.",
+      "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS",
       "scholarship_count": 427,
       "amount_nominal_mxn": 27886275.086999997,
       "amount_real_mxn_2020": 22787638.28256279,
@@ -100395,6 +100395,11 @@
   ],
   "top_institutions": [
     {
+      "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS",
+      "scholarship_count": 1744,
+      "amount_real_mxn_2020": 130768005.05824172
+    },
+    {
       "institution_canonical": "UNIVERSITY OF SHEFFIELD",
       "scholarship_count": 1352,
       "amount_real_mxn_2020": 431110673.55629134
@@ -100435,14 +100440,9 @@
       "amount_real_mxn_2020": 278187492.8417034
     },
     {
-      "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS",
-      "scholarship_count": 895,
-      "amount_real_mxn_2020": 74372460.11448623
-    },
-    {
-      "institution_canonical": "COMERCIALIZADORA DE SERVICIOS MEDICOS CUBANOS, S.A.",
-      "scholarship_count": 849,
-      "amount_real_mxn_2020": 56395544.94375549
+      "institution_canonical": "UNIVERSITY OF NOTTINGHAM",
+      "scholarship_count": 820,
+      "amount_real_mxn_2020": 248990619.7350406
     }
   ]
 }

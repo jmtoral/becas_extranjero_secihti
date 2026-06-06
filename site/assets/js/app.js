@@ -1,14 +1,14 @@
 const translations = {
   es: {
     eyebrow: "Serie histórica, montos reales y destinos académicos",
-    title: "Becas mexicanas al extranjero, con trazabilidad y diseño público",
+    title: "Becas mexicanas al extranjero",
     lede:
       "Proyecto estático bilingüe para explorar la evolución histórica de las becas al extranjero publicadas por Conacyt, Conahcyt y Secihti.",
     kpi_count: "Becas registradas",
-    kpi_amount: "Monto real acumulado (base 2020)",
+    kpi_amount: "Monto acumulado en pesos reales de 2020",
     kpi_years: "Años cubiertos",
     yearly_title: "Serie anual",
-    yearly_subtitle: "Resumen del número de becas y montos reales por año.",
+    yearly_subtitle: "Resumen del número de becas y montos en pesos reales de 2020 por año.",
     knowledge_area_title: "Áreas del conocimiento",
     knowledge_area_subtitle: "Evolución anual del número de becas por área.",
     degree_title: "Nivel de estudios",
@@ -16,7 +16,7 @@ const translations = {
     map_title: "Mapa anual de destinos",
     map_subtitle: "Círculos escalados por número de becas en el país destino del año seleccionado.",
     selected_year_count: "Becas del año",
-    selected_year_amount: "Monto real del año",
+    selected_year_amount: "Monto del año en pesos reales de 2020",
     selected_year_top: "Destinos del año seleccionado",
     selected_year_institutions: "Instituciones del año seleccionado",
     selected_year_institutions_subtitle: "Tamaño del bloque según monto y detalle al pasar el cursor.",
@@ -34,11 +34,15 @@ const translations = {
     method_source_historical: "SECIHTI. Archivo histórico de becas y posgrados.",
     method_source_inflation:
       "INEGI. Índice Nacional de Precios al Consumidor (base para la deflactación alineada a 2020).",
+    method_selection_title: "Archivos y filtros por año",
+    method_selection_year: "Año",
+    method_selection_file: "Archivo elegido",
+    method_selection_rule: "Filtro o criterio aplicado",
     partial_note: "El año {year} es parcial: la fuente publicada cubre {coverage}.",
     treemap_nominal_note: "Para este año, el treemap usa monto nominal porque no hay deflactor disponible.",
     treemap_empty: "No hay datos suficientes para visualizar instituciones en este año.",
     tooltip_beneficiaries: "Personas beneficiarias",
-    tooltip_real_amount: "Monto real base 2020",
+    tooltip_real_amount: "Monto en pesos reales de 2020",
     tooltip_nominal_amount: "Monto nominal",
     line_chart_empty: "No hay datos suficientes para esta visualización.",
     line_chart_series: "Serie",
@@ -48,14 +52,14 @@ const translations = {
   },
   en: {
     eyebrow: "Historical series, real values, and academic destinations",
-    title: "Mexican foreign scholarships, with traceability and public-facing design",
+    title: "Mexican foreign scholarships",
     lede:
       "Bilingual static project to explore the historical evolution of foreign scholarships published by Conacyt, Conahcyt, and Secihti.",
     kpi_count: "Recorded scholarships",
-    kpi_amount: "Accumulated real amount (2020 base)",
+    kpi_amount: "Accumulated amount in 2020 real pesos",
     kpi_years: "Years covered",
     yearly_title: "Yearly series",
-    yearly_subtitle: "Summary of scholarship counts and real amounts by year.",
+    yearly_subtitle: "Summary of scholarship counts and amounts in 2020 real pesos by year.",
     knowledge_area_title: "Knowledge areas",
     knowledge_area_subtitle: "Yearly evolution of scholarship counts by area.",
     degree_title: "Study level",
@@ -63,7 +67,7 @@ const translations = {
     map_title: "Annual destination map",
     map_subtitle: "Circles scaled by scholarship count in the destination country for the selected year.",
     selected_year_count: "Scholarships in year",
-    selected_year_amount: "Real amount in year",
+    selected_year_amount: "Amount in 2020 real pesos",
     selected_year_top: "Destinations for selected year",
     selected_year_institutions: "Institutions for selected year",
     selected_year_institutions_subtitle: "Block size follows amount and hover shows the detail.",
@@ -81,11 +85,15 @@ const translations = {
     method_source_historical: "SECIHTI. Historical scholarships and graduate archive.",
     method_source_inflation:
       "INEGI. National Consumer Price Index (used for the 2020-based deflation series).",
+    method_selection_title: "Files and filters by year",
+    method_selection_year: "Year",
+    method_selection_file: "Selected file",
+    method_selection_rule: "Applied filter or rule",
     partial_note: "Year {year} is partial: the published source covers {coverage}.",
     treemap_nominal_note: "For this year, the treemap uses nominal amounts because no deflator is available.",
     treemap_empty: "There is not enough data to visualize institutions for this year.",
     tooltip_beneficiaries: "Beneficiaries",
-    tooltip_real_amount: "Real amount, 2020 base",
+    tooltip_real_amount: "Amount in 2020 real pesos",
     tooltip_nominal_amount: "Nominal amount",
     line_chart_empty: "There is not enough data for this visualization.",
     line_chart_series: "Series",
@@ -102,6 +110,129 @@ const state = {
   selectedYear: null,
   mapContext: null
 };
+
+const METHOD_SELECTION_ROWS = [
+  {
+    year: "2012",
+    file: "Becas_al_Extranjero_Ene-Dic_2012.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se usa la primera hoja detectando automáticamente la fila de encabezados.",
+    rule_en: "Dedicated foreign-scholarship file; the first worksheet is used after automatically detecting the header row."
+  },
+  {
+    year: "2013",
+    file: "Becas_al_Extranjero_Ene-Dic_2013.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; no requiere separar nacionales.",
+    rule_en: "Dedicated foreign-scholarship file; no domestic/non-domestic split is required."
+  },
+  {
+    year: "2014",
+    file: "Becas_al_Extranjero_Ene-Dic_2014.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se conservan registros con consecutivo y nombre válidos.",
+    rule_en: "Dedicated foreign-scholarship file; rows are kept when they have a valid consecutive id and beneficiary name."
+  },
+  {
+    year: "2015",
+    file: "Becas_al_Extranjero_Ene-Dic_2015.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se extraen país, institución, nivel, programa y monto desde la primera hoja.",
+    rule_en: "Dedicated foreign-scholarship file; country, institution, degree, study program, and amount are extracted from the first worksheet."
+  },
+  {
+    year: "2016",
+    file: "Becas_al_Extranjero_Ene-Dic_2016.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; no se aplica partición adicional por modalidad.",
+    rule_en: "Dedicated foreign-scholarship file; no additional split by modality is applied."
+  },
+  {
+    year: "2017",
+    file: "Becas_al_Extranjero_Ene-Dic_2017.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; el universo se toma tal como fue publicado para extranjero.",
+    rule_en: "Dedicated foreign-scholarship file; the foreign-scholarship universe is taken as published."
+  },
+  {
+    year: "2018",
+    file: "Becas_Extranjero_Ene_Dic_2018.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se normalizan encabezados para homogeneizar nombres de columnas.",
+    rule_en: "Dedicated foreign-scholarship file; headers are normalized to harmonize column names."
+  },
+  {
+    year: "2019",
+    file: "Becas_al_Extranjero_Ene-Dic_2019.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se usa el mismo parser estándar del resto del histórico dedicado.",
+    rule_en: "Dedicated foreign-scholarship file; the same standard parser used for the other dedicated historical files is applied."
+  },
+  {
+    year: "2020",
+    file: "Becas_al_extranjero_Ene-Dic_2020.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se toma el archivo separado por tipo de apoyo publicado ese año.",
+    rule_en: "Dedicated foreign-scholarship file; the year-specific support-type split published that year is used."
+  },
+  {
+    year: "2021",
+    file: "No integrado en la versión actual",
+    rule_es: "La serie publicada actualmente en este sitio no incluye un snapshot 2021 ya integrado al pipeline.",
+    rule_en: "The series currently published on this site does not yet include a 2021 snapshot integrated into the pipeline."
+  },
+  {
+    year: "2022",
+    file: "Becas_CONACYT_al_Extranjero_Ene-Dic_2022.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se conserva el padrón etiquetado ya como extranjero.",
+    rule_en: "Dedicated foreign-scholarship file; the registry already labeled as foreign scholarships is kept."
+  },
+  {
+    year: "2023",
+    file: "Becas_al_Extranjero_Ene-Dic_2023.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se usa la primera hoja y se descartan filas sin beneficiario identificable.",
+    rule_en: "Dedicated foreign-scholarship file; the first worksheet is used and rows without an identifiable beneficiary are dropped."
+  },
+  {
+    year: "2024",
+    file: "Becas_al_Extranjero_Ene-Dic_2024.xlsx",
+    rule_es: "Archivo específico de becas al extranjero; se conserva el universo publicado para extranjero sin mezclar nacionales.",
+    rule_en: "Dedicated foreign-scholarship file; the published foreign-scholarship universe is kept without mixing domestic records."
+  },
+  {
+    year: "2025",
+    file: "S190_Becas_de_Posgrado_y_Apoyos_a_la_Calidad_Ene-Dic_2025.xlsx",
+    rule_es: "Archivo mixto S190; se filtran registros con país distinto de México o con marcadores de extranjero en modalidad o convocatoria.",
+    rule_en: "Mixed S190 file; rows are filtered when country is different from Mexico or when modality/announcement includes foreign-study markers."
+  },
+  {
+    year: "2026",
+    file: "S190_Becas_de_Posgrado_y_Apoyos_a_la_Calidad_Ene-Mar_2026.xlsx",
+    rule_es: "Archivo mixto S190 parcial; se aplica el mismo filtro de país distinto de México o marcadores de extranjero, limitado a la cobertura Enero-Marzo.",
+    rule_en: "Partial mixed S190 file; the same non-Mexico-country or foreign-marker filter is applied, limited to January-March coverage."
+  }
+];
+
+function isBisTheme() {
+  return Boolean(document?.body?.classList?.contains("theme-bis"));
+}
+
+function getLineChartPalette() {
+  if (isBisTheme()) {
+    return ["#6172f3", "#ea67ce", "#f48b9d", "#f0bc70", "#9d8cff", "#c56df0"];
+  }
+  return ["#0b6e4f", "#1f4e79", "#8a5a13", "#5f0f40", "#285943", "#7c3a2d"];
+}
+
+function getTreemapPalette() {
+  if (isBisTheme()) {
+    return ["#7889ff", "#ff73df", "#ff98aa", "#ffd499", "#9d8cff", "#c56df0", "#ffb67c"];
+  }
+  return ["#0b6e4f", "#1f4e79", "#5f0f40", "#8a5a13", "#285943", "#7c3a2d"];
+}
+
+function getContrastingTextColor(hexColor) {
+  const hex = (hexColor || "").replace("#", "");
+  if (hex.length !== 6) {
+    return "#ffffff";
+  }
+  const r = Number.parseInt(hex.slice(0, 2), 16);
+  const g = Number.parseInt(hex.slice(2, 4), 16);
+  const b = Number.parseInt(hex.slice(4, 6), 16);
+  const luminance = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
+  return luminance > 0.66 ? "#2b1457" : "#ffffff";
+}
 
 const COUNTRY_TRANSLATIONS = {
   "Alemania": "Germany",
@@ -307,6 +438,23 @@ function applyTranslations() {
   document.documentElement.lang = state.currentLang;
 }
 
+function renderMethodSelectionTable() {
+  const body = document.getElementById("method-selection-body");
+  if (!body) {
+    return;
+  }
+  body.innerHTML = "";
+  METHOD_SELECTION_ROWS.forEach((row) => {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${row.year}</td>
+      <td><code>${row.file}</code></td>
+      <td>${state.currentLang === "en" ? row.rule_en : row.rule_es}</td>
+    `;
+    body.appendChild(tr);
+  });
+}
+
 function getYearlyLookup() {
   return new Map((state.summary.yearly || []).map((row) => [Number(row.source_year), row]));
 }
@@ -419,7 +567,7 @@ function renderLineChart(containerId, legendId, rows, labelKey) {
 
   const years = [...new Set(rows.map((row) => Number(row.source_year)))].sort((left, right) => left - right);
   const topSeries = getTopSeries(rows, labelKey, 6);
-  const palette = ["#0b6e4f", "#1f4e79", "#8a5a13", "#5f0f40", "#285943", "#7c3a2d"];
+  const palette = getLineChartPalette();
 
   const series = topSeries.map((label, index) => {
     const values = years.map((year) => {
@@ -468,12 +616,12 @@ function renderLineChart(containerId, legendId, rows, labelKey) {
         return `${x},${y}`;
       })
       .join(" ");
-    svgParts.push(`<polyline points="${points}" fill="none" stroke="${serie.color}" stroke-width="3" />`);
+    svgParts.push(`<polyline points="${points}" fill="none" stroke="${serie.color}" stroke-width="${isBisTheme() ? 3.5 : 3}" />`);
     serie.values.forEach((value, index) => {
       const x = margin.left + yearStep * index;
       const y = margin.top + plotHeight - (value.count / maxCount) * plotHeight;
       svgParts.push(
-        `<circle cx="${x}" cy="${y}" r="4" fill="${serie.color}"><title>${t("line_chart_series")}: ${serie.translatedLabel}\n${value.year}\n${t("line_chart_count")}: ${formatNumber(value.count)}</title></circle>`
+        `<circle cx="${x}" cy="${y}" r="${isBisTheme() ? 4.5 : 4}" fill="${serie.color}" stroke="${isBisTheme() ? "#fffef0" : "none"}" stroke-width="${isBisTheme() ? 1.4 : 0}"><title>${t("line_chart_series")}: ${serie.translatedLabel}\n${value.year}\n${t("line_chart_count")}: ${formatNumber(value.count)}</title></circle>`
       );
     });
   });
@@ -580,15 +728,10 @@ function renderInstitutionTreemap(rows) {
   layout.forEach((row) => {
     const tile = document.createElement("div");
     tile.className = "treemap-tile";
-    const palette = [
-      "#0b6e4f",
-      "#1f4e79",
-      "#5f0f40",
-      "#8a5a13",
-      "#285943",
-      "#7c3a2d"
-    ];
-    tile.style.backgroundColor = palette[layout.indexOf(row) % palette.length];
+    const palette = getTreemapPalette();
+    const tileColor = palette[layout.indexOf(row) % palette.length];
+    tile.style.backgroundColor = tileColor;
+    tile.style.color = getContrastingTextColor(tileColor);
     tile.style.left = `${row.x}px`;
     tile.style.top = `${row.y}px`;
     tile.style.width = `${Math.max(row.width - 4, 0)}px`;
@@ -659,8 +802,141 @@ function ensureMap() {
   bubbleSvg.classList.add("bubble-layer");
   root.appendChild(bubbleSvg);
 
-  state.mapContext = { root, baseSvg, bubbleSvg };
+  state.mapContext = {
+    root,
+    base,
+    baseSvg,
+    bubbleSvg,
+    scale: 1,
+    translateX: 0,
+    translateY: 0
+  };
+  bindMapInteractions(state.mapContext);
+  applyMapTransform(state.mapContext);
   return state.mapContext;
+}
+
+function clampMapScale(scale) {
+  return Math.max(1, Math.min(scale, 6));
+}
+
+function applyMapTransform(mapContext) {
+  const transform = `translate(${mapContext.translateX}px, ${mapContext.translateY}px) scale(${mapContext.scale})`;
+  mapContext.base.style.transform = transform;
+  mapContext.bubbleSvg.style.transform = transform;
+}
+
+function setMapZoom(mapContext, nextScale, focusX, focusY) {
+  const previousScale = mapContext.scale;
+  const clampedScale = clampMapScale(nextScale);
+  if (clampedScale === previousScale) {
+    return;
+  }
+
+  const rect = mapContext.root.getBoundingClientRect();
+  const localX = Number.isFinite(focusX) ? focusX : rect.width / 2;
+  const localY = Number.isFinite(focusY) ? focusY : rect.height / 2;
+  const scaleRatio = clampedScale / previousScale;
+
+  mapContext.translateX = localX - (localX - mapContext.translateX) * scaleRatio;
+  mapContext.translateY = localY - (localY - mapContext.translateY) * scaleRatio;
+  mapContext.scale = clampedScale;
+  applyMapTransform(mapContext);
+}
+
+function resetMapTransform(mapContext) {
+  mapContext.scale = 1;
+  mapContext.translateX = 0;
+  mapContext.translateY = 0;
+  applyMapTransform(mapContext);
+}
+
+function bindMapInteractions(mapContext) {
+  if (mapContext.bound) {
+    return;
+  }
+
+  const zoomIn = document.getElementById("map-zoom-in");
+  const zoomOut = document.getElementById("map-zoom-out");
+  const zoomReset = document.getElementById("map-zoom-reset");
+
+  if (zoomIn) {
+    zoomIn.addEventListener("click", () => {
+      const rect = mapContext.root.getBoundingClientRect();
+      setMapZoom(mapContext, mapContext.scale * 1.2, rect.width / 2, rect.height / 2);
+    });
+  }
+
+  if (zoomOut) {
+    zoomOut.addEventListener("click", () => {
+      const rect = mapContext.root.getBoundingClientRect();
+      setMapZoom(mapContext, mapContext.scale / 1.2, rect.width / 2, rect.height / 2);
+    });
+  }
+
+  if (zoomReset) {
+    zoomReset.addEventListener("click", () => {
+      resetMapTransform(mapContext);
+    });
+  }
+
+  mapContext.root.addEventListener(
+    "wheel",
+    (event) => {
+      event.preventDefault();
+      const rect = mapContext.root.getBoundingClientRect();
+      const focusX = event.clientX - rect.left;
+      const focusY = event.clientY - rect.top;
+      const zoomFactor = event.deltaY < 0 ? 1.14 : 1 / 1.14;
+      setMapZoom(mapContext, mapContext.scale * zoomFactor, focusX, focusY);
+    },
+    { passive: false }
+  );
+
+  mapContext.root.addEventListener("pointerdown", (event) => {
+    if (event.button !== 0) {
+      return;
+    }
+    mapContext.isPanning = true;
+    mapContext.panStartX = event.clientX;
+    mapContext.panStartY = event.clientY;
+    mapContext.root.classList.add("is-panning");
+    if (typeof mapContext.root.setPointerCapture === "function") {
+      mapContext.root.setPointerCapture(event.pointerId);
+    }
+  });
+
+  mapContext.root.addEventListener("pointermove", (event) => {
+    if (!mapContext.isPanning) {
+      return;
+    }
+    mapContext.translateX += event.clientX - mapContext.panStartX;
+    mapContext.translateY += event.clientY - mapContext.panStartY;
+    mapContext.panStartX = event.clientX;
+    mapContext.panStartY = event.clientY;
+    applyMapTransform(mapContext);
+  });
+
+  const stopPan = (event) => {
+    if (!mapContext.isPanning) {
+      return;
+    }
+    mapContext.isPanning = false;
+    mapContext.root.classList.remove("is-panning");
+    if (event && typeof mapContext.root.releasePointerCapture === "function") {
+      try {
+        mapContext.root.releasePointerCapture(event.pointerId);
+      } catch (error) {
+        // Ignore release failures when the pointer is already gone.
+      }
+    }
+  };
+
+  mapContext.root.addEventListener("pointerup", stopPan);
+  mapContext.root.addEventListener("pointercancel", stopPan);
+  mapContext.root.addEventListener("pointerleave", stopPan);
+
+  mapContext.bound = true;
 }
 
 function clearMapState(mapContext) {
@@ -756,7 +1032,7 @@ function renderYearPanel() {
     partialNote.textContent = "";
   }
 
-  renderRanking("selected-year-country-list", selectedRows.slice(0, 10), "country_canonical");
+  renderRanking("selected-year-country-list", selectedRows.slice(0, 20), "country_canonical");
   renderInstitutionTreemap(selectedInstitutionRows);
   renderMap(selectedRows);
   syncYearControls();
@@ -779,6 +1055,7 @@ function renderSummary() {
   renderYearPanel();
   renderRanking("country-list", state.summary.top_countries || [], "country_canonical");
   renderRanking("institution-list", state.summary.top_institutions || [], "institution_canonical");
+  renderMethodSelectionTable();
 }
 
 function bindControls() {
