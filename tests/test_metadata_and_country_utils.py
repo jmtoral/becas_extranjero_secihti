@@ -2,7 +2,7 @@ import unittest
 
 from etl.config import STANDARD_COLUMNS
 from etl.country_utils import get_country_map_code, normalize_country_value
-from etl.io_utils import infer_coverage_label, is_partial_coverage
+from etl.io_utils import infer_coverage_label, is_national_candidate, is_partial_coverage
 from etl.pipeline import normalize_degree_series_label, normalize_knowledge_area_label
 from etl.rules.foreign_scholarships import _find_amount_column
 
@@ -29,8 +29,13 @@ class TestMetadataAndCountryUtils(unittest.TestCase):
         self.assertEqual(_find_amount_column(columns), "IMPORTE PAGADO ENERO MARZO")
 
     def test_standard_columns_include_requested_source_fields(self) -> None:
-        for column in ("study_program_raw", "knowledge_area_raw", "start_date_raw", "end_date_raw"):
+        for column in ("study_program_raw", "knowledge_area_raw", "start_date_raw", "end_date_raw", "entity_raw", "entity_canonical"):
             self.assertIn(column, STANDARD_COLUMNS)
+
+    def test_national_candidate_detection(self) -> None:
+        self.assertTrue(is_national_candidate("Becas_Nacionales_Ene-Dic_2019.xlsx"))
+        self.assertTrue(is_national_candidate("S190_Becas_de_Posgrado_y_Apoyos_a_la_Calidad_de_Enero_a_Diciembre_2025.xlsx"))
+        self.assertFalse(is_national_candidate("Sabaticas_Nacionales_Ene-Dic_2019.xlsx"))
 
     def test_series_label_normalization(self) -> None:
         self.assertEqual(normalize_degree_series_label("1. DOC"), "Doctorado")

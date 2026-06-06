@@ -127,7 +127,11 @@ def run() -> None:
         # Filter by scope
         lowered_name = filename.lower()
         is_foreign = any(kw in lowered_name for kw in ["extranj", "foreign", "abroad", "bext"])
-        is_national = any(kw in lowered_name for kw in ["nacional", "bnac"]) or "posdoctorales_por_mexico" in lowered_name or "sabaticas_nacionales" in lowered_name
+        
+        # We only want core national scholarships (e.g. 'Becas_Nacionales_...xlsx')
+        # We exclude postdocs, sabbaticals, and repatriations
+        is_excluded_type = any(kw in lowered_name for kw in ["posdoc", "sabatic", "repatriac"])
+        is_national = (any(kw in lowered_name for kw in ["nacional", "bnac"]) and not is_excluded_type)
         is_s190 = "s190" in lowered_name
 
         if args.scope == "foreign" and not is_foreign and not is_s190:

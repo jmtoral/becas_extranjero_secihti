@@ -13,11 +13,17 @@ ANALYSIS_DIR = DATA_DIR / "analysis"
 CATALOGS_DIR = DATA_DIR / "catalogs"
 SITE_DATA_DIR = ROOT / "site" / "assets" / "data"
 DB_DIR = ROOT / "db"
+SITE_SUMMARY_JSON = SITE_DATA_DIR / "summary.json"
+SITE_SUMMARY_JS = SITE_DATA_DIR / "summary.js"
+SITE_SUMMARY_NATIONAL_JSON = SITE_DATA_DIR / "summary_national.json"
+SITE_SUMMARY_NATIONAL_JS = SITE_DATA_DIR / "summary_national.js"
 
 INVENTORY_CSV = STAGING_DIR / "file_inventory.csv"
 INVENTORY_PARQUET = STAGING_DIR / "file_inventory.parquet"
 STANDARDIZED_CSV = STANDARDIZED_DIR / "scholarships_foreign.csv"
 STANDARDIZED_PARQUET = STANDARDIZED_DIR / "scholarships_foreign.parquet"
+STANDARDIZED_NATIONAL_CSV = STANDARDIZED_DIR / "scholarships_national.csv"
+STANDARDIZED_NATIONAL_PARQUET = STANDARDIZED_DIR / "scholarships_national.parquet"
 ANALYSIS_YEARLY_CSV = ANALYSIS_DIR / "yearly_summary.csv"
 ANALYSIS_COUNTRY_CSV = ANALYSIS_DIR / "country_summary.csv"
 ANALYSIS_INSTITUTION_CSV = ANALYSIS_DIR / "institution_summary.csv"
@@ -26,6 +32,14 @@ ANALYSIS_INSTITUTION_YEAR_CSV = ANALYSIS_DIR / "institution_year_summary.csv"
 ANALYSIS_KNOWLEDGE_AREA_YEAR_CSV = ANALYSIS_DIR / "knowledge_area_year_summary.csv"
 ANALYSIS_DEGREE_YEAR_CSV = ANALYSIS_DIR / "degree_year_summary.csv"
 ANALYSIS_YEAR_METADATA_CSV = ANALYSIS_DIR / "year_metadata.csv"
+ANALYSIS_NATIONAL_YEARLY_CSV = ANALYSIS_DIR / "national_yearly_summary.csv"
+ANALYSIS_NATIONAL_ENTITY_CSV = ANALYSIS_DIR / "national_entity_summary.csv"
+ANALYSIS_NATIONAL_INSTITUTION_CSV = ANALYSIS_DIR / "national_institution_summary.csv"
+ANALYSIS_NATIONAL_ENTITY_YEAR_CSV = ANALYSIS_DIR / "national_entity_year_summary.csv"
+ANALYSIS_NATIONAL_INSTITUTION_YEAR_CSV = ANALYSIS_DIR / "national_institution_year_summary.csv"
+ANALYSIS_NATIONAL_KNOWLEDGE_AREA_YEAR_CSV = ANALYSIS_DIR / "national_knowledge_area_year_summary.csv"
+ANALYSIS_NATIONAL_DEGREE_YEAR_CSV = ANALYSIS_DIR / "national_degree_year_summary.csv"
+ANALYSIS_NATIONAL_YEAR_METADATA_CSV = ANALYSIS_DIR / "national_year_metadata.csv"
 DEFLATORS_CSV = CATALOGS_DIR / "deflactors_base_2020.csv"
 COUNTRIES_CSV = CATALOGS_DIR / "countries_manual.csv"
 INSTITUTIONS_CSV = CATALOGS_DIR / "institutions_manual.csv"
@@ -44,6 +58,8 @@ STANDARD_COLUMNS = [
     "country_raw",
     "country_canonical",
     "country_iso3",
+    "entity_raw",
+    "entity_canonical",
     "institution_raw",
     "institution_canonical",
     "study_program_raw",

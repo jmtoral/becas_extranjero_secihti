@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-06-06T06:20:20.837004+00:00",
+  "updated_at_utc": "2026-06-06T19:58:12.058804+00:00",
   "kpis": {
     "scholarship_count": 68900,
     "amount_real_mxn_2020": 16052256118.034914,
@@ -37558,15 +37558,6 @@
       "amount_visual_basis": "real_2020"
     },
     {
-      "source_year": 2015,
-      "institution_canonical": "",
-      "scholarship_count": 1,
-      "amount_nominal_mxn": -20000.0,
-      "amount_real_mxn_2020": -25955.097574287436,
-      "amount_visual_mxn": -25955.097574287436,
-      "amount_visual_basis": "real_2020"
-    },
-    {
       "source_year": 2016,
       "institution_canonical": "UNIVERSITY OF CALIFORNIA",
       "scholarship_count": 228,
@@ -52210,15 +52201,6 @@
       "amount_visual_basis": "real_2020"
     },
     {
-      "source_year": 2017,
-      "institution_canonical": "",
-      "scholarship_count": 1,
-      "amount_nominal_mxn": 287724.48,
-      "amount_real_mxn_2020": 330285.73704864684,
-      "amount_visual_mxn": 330285.73704864684,
-      "amount_visual_basis": "real_2020"
-    },
-    {
       "source_year": 2018,
       "institution_canonical": "UNIVERSITY OF CALIFORNIA",
       "scholarship_count": 192,
@@ -58714,15 +58696,6 @@
       "amount_nominal_mxn": 200690.8,
       "amount_real_mxn_2020": 218990.92044634063,
       "amount_visual_mxn": 218990.92044634063,
-      "amount_visual_basis": "real_2020"
-    },
-    {
-      "source_year": 2018,
-      "institution_canonical": "",
-      "scholarship_count": 1,
-      "amount_nominal_mxn": 1239744.0549,
-      "amount_real_mxn_2020": 1352790.9186690655,
-      "amount_visual_mxn": 1352790.9186690655,
       "amount_visual_basis": "real_2020"
     },
     {

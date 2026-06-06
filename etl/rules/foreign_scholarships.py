@@ -20,7 +20,7 @@ def _detect_header_row(path: Path, sheet_name: str) -> int:
     preview = pd.read_excel(path, sheet_name=sheet_name, header=None, nrows=HEADER_SCAN_ROWS)
     for idx, row in preview.fillna("").astype(str).iterrows():
         cells = [ascii_fold(cell) for cell in row.tolist()]
-        if any("NOMBRE BECARIO" in cell for cell in cells):
+        if any(("NOMBRE BECARIO" in cell) or (cell == "NOMBRE") for cell in cells):
             return int(idx)
     return 0
 
@@ -150,6 +150,7 @@ def parse_foreign_scholarship_file(path: Path, snapshot_id: str, source_year: in
     degree_col = _pick_first(list(raw.columns), "NIVEL DE ESTUDIOS")
     institution_col = _pick_first(list(raw.columns), "INSTITUCION")
     country_col = _pick_first(list(raw.columns), "PAIS")
+    entity_col = _pick_first(list(raw.columns), "ENTIDAD")
     program_col = _pick_first(list(raw.columns), "PROGRAMA DE ESTUDIOS")
     area_col = _pick_first(list(raw.columns), "AREA DEL CONOCIMIENTO")
     convocatoria_col = _pick_first(list(raw.columns), "CONVOCATORIA")
@@ -168,6 +169,7 @@ def parse_foreign_scholarship_file(path: Path, snapshot_id: str, source_year: in
             "degree_raw": raw[degree_col] if degree_col else None,
             "institution_raw": raw[institution_col] if institution_col else None,
             "country_raw": raw[country_col] if country_col else None,
+            "entity_raw": raw[entity_col] if entity_col else None,
             "study_program_raw": raw[program_col] if program_col else None,
             "knowledge_area_raw": raw[area_col] if area_col else None,
             "convocatoria_raw": raw[convocatoria_col] if convocatoria_col else None,
@@ -223,6 +225,8 @@ def parse_foreign_scholarship_file(path: Path, snapshot_id: str, source_year: in
             "country_raw": parsed["country_raw"].map(_canonical_text),
             "country_canonical": parsed["country_canonical"],
             "country_iso3": parsed["country_iso3"],
+            "entity_raw": parsed["entity_raw"].map(_canonical_text),
+            "entity_canonical": parsed["entity_raw"].map(_canonical_text),
             "institution_raw": parsed["institution_raw"].map(_canonical_text),
             "institution_canonical": parsed["institution_canonical"],
             "study_program_raw": parsed["study_program_raw"].map(_canonical_text),

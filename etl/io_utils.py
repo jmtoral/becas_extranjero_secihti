@@ -12,6 +12,7 @@ from etl.config import RAW_DIR
 
 
 FOREIGN_KEYWORDS = ("extranjero", "foreign", "abroad", "bext", "internacional")
+NATIONAL_KEYWORDS = ("nacional", "bnac")
 
 
 def utc_now_iso() -> str:
@@ -46,6 +47,8 @@ def infer_program_hint(file_name: str) -> str:
     lowered = file_name.lower()
     if "extranj" in lowered or "bext" in lowered:
         return "becas_extranjero"
+    if "nacional" in lowered or "bnac" in lowered:
+        return "becas_nacionales"
     if "posdoctor" in lowered and "extranj" in lowered:
         return "estancias_posdoctorales_extranjero"
     if "sabatic" in lowered:
@@ -58,6 +61,12 @@ def infer_program_hint(file_name: str) -> str:
 def is_foreign_candidate(file_name: str) -> bool:
     lowered = file_name.lower()
     return any(keyword in lowered for keyword in FOREIGN_KEYWORDS) or "s190" in lowered
+
+
+def is_national_candidate(file_name: str) -> bool:
+    lowered = file_name.lower()
+    is_excluded_type = any(keyword in lowered for keyword in ("posdoc", "sabatic", "repatriac"))
+    return (any(keyword in lowered for keyword in NATIONAL_KEYWORDS) and not is_excluded_type) or "s190" in lowered
 
 
 def infer_coverage_label(file_name: str) -> str | None:
