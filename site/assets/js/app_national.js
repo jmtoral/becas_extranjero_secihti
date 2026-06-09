@@ -1139,6 +1139,45 @@ function getMapAnchor(mapContext, mapKey) {
   };
 }
 
+function aggregateMapRows(rows) {
+  const grouped = new Map();
+  rows.forEach((row) => {
+    const mapKey = normalizeMapEntityKey(row.entity_canonical);
+    if (!mapKey) {
+      return;
+    }
+    const current = grouped.get(mapKey) || {
+      map_key: mapKey,
+      entity_canonical: row.entity_canonical,
+      scholarship_count: 0
+    };
+    current.scholarship_count += Number(row.scholarship_count || 0);
+    if (!current.entity_canonical || current.entity_canonical === "N/D") {
+      current.entity_canonical = row.entity_canonical;
+    }
+    grouped.set(mapKey, current);
+  });
+  return [...grouped.values()];
+}
+
+function getMapBubbleGradientStops(ratio) {
+  if (isNationalTheme()) {
+    const warm = Math.max(0.18, Math.min(ratio, 1));
+    return {
+      inner: `rgba(243, 207, 122, ${0.82 + warm * 0.14})`,
+      mid: `rgba(204, 86, 30, ${0.58 + warm * 0.18})`,
+      outer: `rgba(170, 43, 29, ${0.68 + warm * 0.22})`,
+      stroke: `rgba(109, 59, 29, ${0.7 + warm * 0.24})`
+    };
+  }
+  return {
+    inner: `rgba(255, 212, 153, ${0.84 + ratio * 0.12})`,
+    mid: `rgba(255, 152, 170, ${0.62 + ratio * 0.18})`,
+    outer: `rgba(255, 115, 223, ${0.72 + ratio * 0.18})`,
+    stroke: `rgba(255, 115, 223, ${0.78 + ratio * 0.18})`
+  };
+}
+
 async function renderMap(rows) {
   const mapContext = await ensureMap();
   if (!mapContext) {
@@ -1146,10 +1185,11 @@ async function renderMap(rows) {
   }
 
   clearMapState(mapContext);
-  const validRows = rows
-    .map((row) => ({ ...row, map_key: normalizeMapEntityKey(row.entity_canonical) }))
+  const validRows = aggregateMapRows(rows)
     .filter((row) => mapContext.featureLookup.has(row.map_key));
   const maxCount = Math.max(...validRows.map((row) => Number(row.scholarship_count || 0)), 1);
+  const defs = document.createElementNS("http://www.w3.org/2000/svg", "defs");
+  mapContext.bubbleSvg.appendChild(defs);
 
   validRows.forEach((row) => {
     const anchor = getMapAnchor(mapContext, row.map_key);
@@ -1159,15 +1199,43 @@ async function renderMap(rows) {
 
     anchor.target.classList.add("is-active-country");
 
+    const count = Number(row.scholarship_count || 0);
+    const ratio = Math.max(0, Math.min(count / maxCount, 1));
     const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
-    const radius = 4 + Math.sqrt(Number(row.scholarship_count || 0) / maxCount) * 24;
+    const radius = 4 + Math.sqrt(ratio) * 24;
+    const gradientId = `bubble-gradient-${row.map_key}`;
+    const stops = getMapBubbleGradientStops(ratio);
+    const gradient = document.createElementNS("http://www.w3.org/2000/svg", "radialGradient");
+    gradient.setAttribute("id", gradientId);
+    gradient.setAttribute("cx", "35%");
+    gradient.setAttribute("cy", "35%");
+    gradient.setAttribute("r", "70%");
+
+    const stopInner = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    stopInner.setAttribute("offset", "0%");
+    stopInner.setAttribute("stop-color", stops.inner);
+    gradient.appendChild(stopInner);
+
+    const stopMid = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    stopMid.setAttribute("offset", "58%");
+    stopMid.setAttribute("stop-color", stops.mid);
+    gradient.appendChild(stopMid);
+
+    const stopOuter = document.createElementNS("http://www.w3.org/2000/svg", "stop");
+    stopOuter.setAttribute("offset", "100%");
+    stopOuter.setAttribute("stop-color", stops.outer);
+    gradient.appendChild(stopOuter);
+    defs.appendChild(gradient);
+
     circle.setAttribute("cx", anchor.x);
     circle.setAttribute("cy", anchor.y);
     circle.setAttribute("r", radius.toFixed(2));
     circle.setAttribute("class", "map-bubble");
+    circle.setAttribute("fill", `url(#${gradientId})`);
+    circle.setAttribute("stroke", stops.stroke);
 
     const title = document.createElementNS("http://www.w3.org/2000/svg", "title");
-    title.textContent = `${translateEntityName(row.entity_canonical)}: ${formatNumber(Number(row.scholarship_count || 0))}`;
+    title.textContent = `${translateEntityName(row.entity_canonical)}: ${formatNumber(count)}`;
     circle.appendChild(title);
     mapContext.bubbleSvg.appendChild(circle);
   });
