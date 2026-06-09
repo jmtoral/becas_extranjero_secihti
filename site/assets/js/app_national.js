@@ -1,50 +1,50 @@
 const translations = {
   es: {
-    eyebrow: "Serie historica, montos reales y distribucion territorial",
-    title: "Becas nacionales en Mexico",
+    eyebrow: "Serie hist\u00f3rica, montos reales y distribuci\u00f3n territorial",
+    title: "Becas nacionales en M\u00e9xico",
     lede:
-      "Proyecto estatico bilingue para explorar la evolucion historica de las becas nacionales publicadas por Conacyt, Conahcyt y Secihti.",
+      "Proyecto est\u00e1tico biling\u00fce para explorar la evoluci\u00f3n hist\u00f3rica de las becas nacionales publicadas por Conacyt, Conahcyt y Secihti.",
     kpi_count: "Becas registradas",
     kpi_amount: "Monto acumulado en pesos reales de 2020",
-    kpi_years: "Anos cubiertos",
+    kpi_years: "A\u00f1os cubiertos",
     yearly_title: "Serie anual",
-    yearly_subtitle: "Resumen del numero de becas y montos en pesos reales de 2020 por ano.",
-    knowledge_area_title: "Areas del conocimiento",
-    knowledge_area_subtitle: "Evolucion anual del numero de becas por area.",
+    yearly_subtitle: "Resumen del n\u00famero de becas y montos en pesos reales de 2020 por a\u00f1o.",
+    knowledge_area_title: "\u00c1reas del conocimiento",
+    knowledge_area_subtitle: "Evoluci\u00f3n anual del n\u00famero de becas por \u00e1rea.",
     degree_title: "Nivel de estudios",
-    degree_subtitle: "Evolucion anual del numero de becas por nivel.",
+    degree_subtitle: "Evoluci\u00f3n anual del n\u00famero de becas por nivel.",
     map_title: "Mapa anual de entidades",
-    map_subtitle: "Circulos escalados por numero de becas en la entidad del ano seleccionado.",
-    selected_year_count: "Becas del ano",
-    selected_year_amount: "Monto del ano en pesos reales de 2020",
-    selected_year_top: "Entidades del ano seleccionado",
-    selected_year_institutions: "Instituciones del ano seleccionado",
-    selected_year_institutions_subtitle: "Tamano del bloque segun monto y detalle al pasar el cursor.",
+    map_subtitle: "C\u00edrculos escalados por n\u00famero de becas en la entidad del a\u00f1o seleccionado.",
+    selected_year_count: "Becas del a\u00f1o",
+    selected_year_amount: "Monto del a\u00f1o en pesos reales de 2020",
+    selected_year_top: "Entidades del a\u00f1o seleccionado",
+    selected_year_institutions: "Instituciones del a\u00f1o seleccionado",
+    selected_year_institutions_subtitle: "Tama\u00f1o del bloque seg\u00fan monto y detalle al pasar el cursor.",
     entities_title: "Entidades principales",
     entities_subtitle: "Estados con mayor presencia en la serie integrada.",
     institutions_title: "Instituciones receptoras",
-    institutions_subtitle: "Universidades y centros con mas becas registradas.",
+    institutions_subtitle: "Universidades y centros con m\u00e1s becas registradas.",
     coverage_unspecified: "Cobertura no indicada",
     partial_badge: "parcial",
-    method_title: "Metodo",
+    method_title: "M\u00e9todo",
     method_body:
-      "El sitio consume datos procesados fuera de linea a partir de snapshots locales del padron oficial. No estima pagos no publicados y prioriza trazabilidad, deduplicacion conservadora y montos reales base 2020.",
+      "El sitio consume datos procesados fuera de l\u00ednea a partir de snapshots locales del padr\u00f3n oficial. No estima pagos no publicados y prioriza trazabilidad, deduplicaci\u00f3n conservadora y montos reales base 2020.",
     method_sources_title: "Fuentes",
-    method_source_current: "SECIHTI. Padron de beneficiarios vigente.",
-    method_source_historical: "SECIHTI. Archivo historico de becas y posgrados.",
+    method_source_current: "SECIHTI. Padr\u00f3n de beneficiarios vigente.",
+    method_source_historical: "SECIHTI. Archivo hist\u00f3rico de becas y posgrados.",
     method_source_inflation:
-      "INEGI. Indice Nacional de Precios al Consumidor (base para la deflactacion alineada a 2020).",
-    method_selection_title: "Archivos y filtros por ano",
-    method_selection_year: "Ano",
+      "INEGI. \u00cdndice Nacional de Precios al Consumidor (base para la deflactaci\u00f3n alineada a 2020).",
+    method_selection_title: "Archivos y filtros por a\u00f1o",
+    method_selection_year: "A\u00f1o",
     method_selection_file: "Archivo elegido",
     method_selection_rule: "Filtro o criterio aplicado",
-    partial_note: "El ano {year} es parcial: la fuente publicada cubre {coverage}.",
-    treemap_nominal_note: "Para este ano, el treemap usa monto nominal porque no hay deflactor disponible.",
-    treemap_empty: "No hay datos suficientes para visualizar instituciones en este ano.",
+    partial_note: "El a\u00f1o {year} es parcial: la fuente publicada cubre {coverage}.",
+    treemap_nominal_note: "Para este a\u00f1o, el treemap usa monto nominal porque no hay deflactor disponible.",
+    treemap_empty: "No hay datos suficientes para visualizar instituciones en este a\u00f1o.",
     tooltip_beneficiaries: "Personas beneficiarias",
     tooltip_real_amount: "Monto en pesos reales de 2020",
     tooltip_nominal_amount: "Monto nominal",
-    line_chart_empty: "No hay datos suficientes para esta visualizacion.",
+    line_chart_empty: "No hay datos suficientes para esta visualizaci\u00f3n.",
     line_chart_series: "Serie",
     line_chart_count: "Becas",
     amount_unavailable: "No disponible",
@@ -102,98 +102,100 @@ const translations = {
     map_unavailable: "Map not available in this local copy."
   }
 };
-
 const state = {
   currentLang: "es",
   summary: null,
   availableYears: [],
   selectedYear: null,
-  mapContext: null
+  mapContext: null,
+  mapContextPromise: null,
+  mapGeometry: null,
+  mapGeometryPromise: null
 };
 
 const METHOD_SELECTION_ROWS = [
   {
     year: "2012",
     file: "Becas_Nacionales_Ene-Dic_2012.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se usa la primera hoja detectando automaticamente la fila de encabezados.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se usa la primera hoja detectando autom\u00e1ticamente la fila de encabezados.",
     rule_en: "Dedicated domestic-scholarship file; the first worksheet is used after automatically detecting the header row."
   },
   {
     year: "2013",
     file: "Becas_Nacionales_Ene-Dic_2013.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; no requiere separar extranjero.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; no requiere separar extranjero.",
     rule_en: "Dedicated domestic-scholarship file; no foreign-scope split is required."
   },
   {
     year: "2014",
     file: "Becas_Nacionales_Ene-Dic_2014.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se conservan registros con consecutivo y nombre validos.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se conservan registros con consecutivo y nombre v\u00e1lidos.",
     rule_en: "Dedicated domestic-scholarship file; rows are kept when they have a valid consecutive id and beneficiary name."
   },
   {
     year: "2015",
     file: "Becas_Nacionales_Ene-Dic_2015.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se extraen entidad, institucion, nivel, programa y monto desde la primera hoja.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se extraen entidad, instituci\u00f3n, nivel, programa y monto desde la primera hoja.",
     rule_en: "Dedicated domestic-scholarship file; state, institution, degree, study program, and amount are extracted from the first worksheet."
   },
   {
     year: "2016",
     file: "Becas_Nacionales_Ene-Dic_2016.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; no se aplica particion adicional por modalidad.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; no se aplica partici\u00f3n adicional por modalidad.",
     rule_en: "Dedicated domestic-scholarship file; no additional split by modality is applied."
   },
   {
     year: "2017",
     file: "Becas_Nacionales_Ene-Dic_2017.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; el universo se toma tal como fue publicado para nacional.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; el universo se toma tal como fue publicado para nacional.",
     rule_en: "Dedicated domestic-scholarship file; the domestic-scholarship universe is taken as published."
   },
   {
     year: "2018",
     file: "Becas_Nacionales_Ene_Dic_2018.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se normalizan encabezados para homogeneizar nombres de columnas.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se normalizan encabezados para homogeneizar nombres de columnas.",
     rule_en: "Dedicated domestic-scholarship file; headers are normalized to harmonize column names."
   },
   {
     year: "2019",
     file: "Becas_Nacionales_Ene-Dic_2019.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se usa el mismo parser estandar del resto del historico dedicado.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se usa el mismo parser est\u00e1ndar del resto del hist\u00f3rico dedicado.",
     rule_en: "Dedicated domestic-scholarship file; the same standard parser used for the other dedicated historical files is applied."
   },
   {
     year: "2020",
     file: "Becas_Nacionales_Ene-Dic_2020.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se toma el archivo separado por tipo de apoyo publicado ese ano.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se toma el archivo separado por tipo de apoyo publicado ese a\u00f1o.",
     rule_en: "Dedicated domestic-scholarship file; the year-specific support-type split published that year is used."
   },
   {
     year: "2021",
     file: "Becas_Nacionales_Ene-Dic_2021.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se procesa con el mismo parser estandar del historico dedicado.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se procesa con el mismo parser est\u00e1ndar del hist\u00f3rico dedicado.",
     rule_en: "Dedicated domestic-scholarship file; it is processed with the same standard parser used for the dedicated historical series."
   },
   {
     year: "2022",
     file: "Becas_CONACYT_Nacionales_Ene-Dic_2022.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se conserva el padron etiquetado ya como nacional.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se conserva el padr\u00f3n etiquetado ya como nacional.",
     rule_en: "Dedicated domestic-scholarship file; the registry already labeled as domestic scholarships is kept."
   },
   {
     year: "2023",
     file: "Becas_Nacionales_Ene-Dic_2023.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se usa la primera hoja y se descartan filas sin beneficiario identificable.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se usa la primera hoja y se descartan filas sin beneficiario identificable.",
     rule_en: "Dedicated domestic-scholarship file; the first worksheet is used and rows without an identifiable beneficiary are dropped."
   },
   {
     year: "2024",
     file: "Becas_Nacionales_Ene-Dic_2024.xlsx",
-    rule_es: "Archivo especifico de becas nacionales; se conserva el universo publicado para nacional sin mezclar extranjero.",
+    rule_es: "Archivo espec\u00edfico de becas nacionales; se conserva el universo publicado para nacional sin mezclar extranjero.",
     rule_en: "Dedicated domestic-scholarship file; the published domestic universe is kept without mixing foreign records."
   },
   {
     year: "2025",
     file: "S190_Becas_de_Posgrado_y_Apoyos_a_la_Calidad_Ene-Dic_2025.xlsx",
-    rule_es: "Archivo mixto S190; se filtran registros con pais Mexico o con marcadores de nacional en modalidad o convocatoria, excluyendo posdoctorales, sabaticas y repatriacion.",
+    rule_es: "Archivo mixto S190; se filtran registros con pa\u00eds M\u00e9xico o con marcadores de nacional en modalidad o convocatoria, excluyendo posdoctorales, sab\u00e1ticas y repatriaci\u00f3n.",
     rule_en: "Mixed S190 file; rows are filtered when country is Mexico or when modality/announcement includes domestic-study markers, excluding postdocs, sabbaticals, and repatriation."
   },
   {
@@ -203,7 +205,6 @@ const METHOD_SELECTION_ROWS = [
     rule_en: "Partial mixed S190 file; the same domestic filter is applied and coverage is limited to January-March."
   }
 ];
-
 const KNOWLEDGE_AREA_TRANSLATIONS = {
   "-": "Unspecified",
   "Agropecuarias y ecosistemas": "Agriculture and ecosystems",
@@ -271,46 +272,63 @@ const ENTITY_TRANSLATIONS = {
   "Zacatecas": "Zacatecas"
 };
 
-const MEXICO_TILE_LAYOUT = [
-  { name: "Baja California", code: "baja-california", abbr: "BC", x: 36, y: 88, width: 76, height: 52 },
-  { name: "Baja California Sur", code: "baja-california-sur", abbr: "BCS", x: 54, y: 182, width: 76, height: 52 },
-  { name: "Sonora", code: "sonora", abbr: "SON", x: 146, y: 86, width: 82, height: 54 },
-  { name: "Chihuahua", code: "chihuahua", abbr: "CHIH", x: 242, y: 74, width: 92, height: 58 },
-  { name: "Coahuila", code: "coahuila", abbr: "COAH", x: 352, y: 90, width: 88, height: 54 },
-  { name: "Nuevo Leon", code: "nuevo-leon", abbr: "NL", x: 454, y: 108, width: 82, height: 54 },
-  { name: "Tamaulipas", code: "tamaulipas", abbr: "TAMPS", x: 548, y: 130, width: 84, height: 58 },
-  { name: "Sinaloa", code: "sinaloa", abbr: "SIN", x: 156, y: 164, width: 78, height: 56 },
-  { name: "Durango", code: "durango", abbr: "DGO", x: 248, y: 162, width: 84, height: 58 },
-  { name: "Zacatecas", code: "zacatecas", abbr: "ZAC", x: 346, y: 170, width: 80, height: 54 },
-  { name: "San Luis Potosi", code: "san-luis-potosi", abbr: "SLP", x: 438, y: 182, width: 86, height: 56 },
-  { name: "Nayarit", code: "nayarit", abbr: "NAY", x: 170, y: 242, width: 70, height: 50 },
-  { name: "Jalisco", code: "jalisco", abbr: "JAL", x: 246, y: 238, width: 82, height: 58 },
-  { name: "Aguascalientes", code: "aguascalientes", abbr: "AGS", x: 334, y: 240, width: 62, height: 46 },
-  { name: "Guanajuato", code: "guanajuato", abbr: "GTO", x: 406, y: 248, width: 82, height: 50 },
-  { name: "Queretaro", code: "queretaro", abbr: "QRO", x: 496, y: 246, width: 56, height: 44 },
-  { name: "Hidalgo", code: "hidalgo", abbr: "HGO", x: 560, y: 248, width: 58, height: 46 },
-  { name: "Veracruz", code: "veracruz", abbr: "VER", x: 630, y: 256, width: 112, height: 56 },
-  { name: "Colima", code: "colima", abbr: "COL", x: 220, y: 312, width: 48, height: 44 },
-  { name: "Michoacan", code: "michoacan", abbr: "MICH", x: 280, y: 318, width: 98, height: 56 },
-  { name: "Estado de Mexico", code: "estado-de-mexico", abbr: "MEX", x: 438, y: 314, width: 86, height: 52 },
-  { name: "Ciudad de Mexico", code: "ciudad-de-mexico", abbr: "CDMX", x: 532, y: 324, width: 42, height: 38 },
-  { name: "Tlaxcala", code: "tlaxcala", abbr: "TLAX", x: 582, y: 296, width: 40, height: 36 },
-  { name: "Puebla", code: "puebla", abbr: "PUE", x: 590, y: 320, width: 72, height: 48 },
-  { name: "Morelos", code: "morelos", abbr: "MOR", x: 536, y: 368, width: 48, height: 36 },
-  { name: "Guerrero", code: "guerrero", abbr: "GRO", x: 360, y: 394, width: 126, height: 54 },
-  { name: "Oaxaca", code: "oaxaca", abbr: "OAX", x: 502, y: 404, width: 120, height: 56 },
-  { name: "Tabasco", code: "tabasco", abbr: "TAB", x: 648, y: 374, width: 66, height: 46 },
-  { name: "Chiapas", code: "chiapas", abbr: "CHIS", x: 628, y: 454, width: 112, height: 56 },
-  { name: "Campeche", code: "campeche", abbr: "CAMP", x: 748, y: 364, width: 78, height: 54 },
-  { name: "Yucatan", code: "yucatan", abbr: "YUC", x: 838, y: 332, width: 78, height: 50 },
-  { name: "Quintana Roo", code: "quintana-roo", abbr: "QROO", x: 914, y: 392, width: 64, height: 96 }
-];
+const MEXICO_GEOJSON_PATH = "assets/maps/mexico_states.geojson";
+const MAP_NAME_ALIASES = {
+  "baja california": "baja california",
+  "baja california sur": "baja california sur",
+  "campeche": "campeche",
+  "chiapas": "chiapas",
+  "chihuahua": "chihuahua",
+  "ciudad de mexico": "ciudad de mexico",
+  "coahuila": "coahuila",
+  "coahuila de zaragoza": "coahuila",
+  "colima": "colima",
+  "distrito federal": "ciudad de mexico",
+  "durango": "durango",
+  "estado de mexico": "estado de mexico",
+  "guanajuato": "guanajuato",
+  "guerrero": "guerrero",
+  "hidalgo": "hidalgo",
+  "jalisco": "jalisco",
+  "mexico": "estado de mexico",
+  "michoacan": "michoacan",
+  "michoacan de ocampo": "michoacan",
+  "morelos": "morelos",
+  "nayarit": "nayarit",
+  "nuevo leon": "nuevo leon",
+  "oaxaca": "oaxaca",
+  "puebla": "puebla",
+  "queretaro": "queretaro",
+  "quintana roo": "quintana roo",
+  "san luis potosi": "san luis potosi",
+  "sinaloa": "sinaloa",
+  "sonora": "sonora",
+  "tabasco": "tabasco",
+  "tamaulipas": "tamaulipas",
+  "tlaxcala": "tlaxcala",
+  "veracruz de ignacio de la llave": "veracruz",
+  "veracruz": "veracruz",
+  "yucatan": "yucatan",
+  "zacatecas": "zacatecas"
+};
 
 function foldKey(value) {
   return String(value || "")
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .trim();
+}
+
+function slugify(value) {
+  return foldKey(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function normalizeMapEntityKey(value) {
+  const folded = foldKey(value).toLowerCase();
+  return MAP_NAME_ALIASES[folded] || folded;
 }
 
 function buildFoldedLookup(source) {
@@ -321,13 +339,19 @@ const KNOWLEDGE_AREA_TRANSLATIONS_FOLDED = buildFoldedLookup(KNOWLEDGE_AREA_TRAN
 const DEGREE_TRANSLATIONS_FOLDED = buildFoldedLookup(DEGREE_TRANSLATIONS);
 const COVERAGE_TRANSLATIONS_FOLDED = buildFoldedLookup(COVERAGE_TRANSLATIONS);
 const ENTITY_TRANSLATIONS_FOLDED = buildFoldedLookup(ENTITY_TRANSLATIONS);
-const ENTITY_CODE_LOOKUP = new Map(MEXICO_TILE_LAYOUT.map((row) => [foldKey(row.name), row.code]));
 
 function isBisTheme() {
   return Boolean(document?.body?.classList?.contains("theme-bis"));
 }
 
+function isNationalTheme() {
+  return Boolean(document?.body?.classList?.contains("theme-national"));
+}
+
 function getLineChartPalette() {
+  if (isNationalTheme()) {
+    return ["#aa2b1d", "#cc561e", "#8a8635", "#e39a36", "#6d3b1d", "#b86d2b"];
+  }
   if (isBisTheme()) {
     return ["#6172f3", "#ea67ce", "#f48b9d", "#f0bc70", "#9d8cff", "#c56df0"];
   }
@@ -335,6 +359,9 @@ function getLineChartPalette() {
 }
 
 function getTreemapPalette() {
+  if (isNationalTheme()) {
+    return ["#aa2b1d", "#cc561e", "#8a8635", "#d98a2f", "#6d3b1d", "#b76e3f", "#c4ac57"];
+  }
   if (isBisTheme()) {
     return ["#7889ff", "#ff73df", "#ff98aa", "#ffd499", "#9d8cff", "#c56df0", "#ffb67c"];
   }
@@ -350,7 +377,10 @@ function getContrastingTextColor(hexColor) {
   const g = Number.parseInt(hex.slice(2, 4), 16);
   const b = Number.parseInt(hex.slice(4, 6), 16);
   const luminance = (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255;
-  return luminance > 0.66 ? "#2b1457" : "#ffffff";
+  if (luminance > 0.66) {
+    return isNationalTheme() ? "#674636" : "#2b1457";
+  }
+  return "#ffffff";
 }
 
 function t(key, replacements = {}) {
@@ -607,12 +637,14 @@ function renderLineChart(containerId, legendId, rows, labelKey) {
         return `${x},${y}`;
       })
       .join(" ");
-    svgParts.push(`<polyline points="${points}" fill="none" stroke="${serie.color}" stroke-width="${isBisTheme() ? 3.5 : 3}" />`);
+    svgParts.push(
+      `<polyline points="${points}" fill="none" stroke="${serie.color}" stroke-width="${isBisTheme() ? 3.5 : isNationalTheme() ? 3.8 : 3}" stroke-linecap="round" stroke-linejoin="round" />`
+    );
     serie.values.forEach((value, index) => {
       const x = margin.left + yearStep * index;
       const y = margin.top + plotHeight - (value.count / maxCount) * plotHeight;
       svgParts.push(
-        `<circle cx="${x}" cy="${y}" r="${isBisTheme() ? 4.5 : 4}" fill="${serie.color}" stroke="${isBisTheme() ? "#fffef0" : "none"}" stroke-width="${isBisTheme() ? 1.4 : 0}"><title>${t("line_chart_series")}: ${serie.translatedLabel}\n${value.year}\n${t("line_chart_count")}: ${formatNumber(value.count)}</title></circle>`
+        `<circle cx="${x}" cy="${y}" r="${isBisTheme() ? 4.5 : isNationalTheme() ? 4.6 : 4}" fill="${serie.color}" stroke="${isBisTheme() ? "#fffef0" : isNationalTheme() ? "#fff8e8" : "none"}" stroke-width="${isBisTheme() ? 1.4 : isNationalTheme() ? 1.5 : 0}"><title>${t("line_chart_series")}: ${serie.translatedLabel}\n${value.year}\n${t("line_chart_count")}: ${formatNumber(value.count)}</title></circle>`
       );
     });
   });
@@ -758,67 +790,206 @@ function renderInstitutionTreemap(rows) {
   });
 }
 
-function buildMexicoTileSvg() {
-  const parts = [
-    '<svg class="world-map-svg" viewBox="0 0 1024 620" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">'
-  ];
-  MEXICO_TILE_LAYOUT.forEach((row) => {
-    const cx = row.x + row.width / 2;
-    const cy = row.y + row.height / 2;
-    parts.push(
-      `<rect id="${row.code}" x="${row.x}" y="${row.y}" width="${row.width}" height="${row.height}" rx="12" ry="12"></rect>`
-    );
-    parts.push(
-      `<text x="${cx}" y="${cy + 4}" text-anchor="middle" class="tile-map-label">${row.abbr}</text>`
-    );
-  });
-  parts.push("</svg>");
-  return parts.join("");
+function isRenderableMexicoCoordinate(lon, lat) {
+  return Number.isFinite(lon) && Number.isFinite(lat) && lon >= -119 && lon <= -85 && lat >= 14 && lat <= 33;
 }
 
-function ensureMap() {
+function buildProjectedRingPath(ring, project) {
+  const commands = [];
+  ring.forEach((point) => {
+    const lon = Number(point?.[0]);
+    const lat = Number(point?.[1]);
+    if (!isRenderableMexicoCoordinate(lon, lat)) {
+      return;
+    }
+    const projected = project(lon, lat);
+    commands.push(`${commands.length === 0 ? "M" : "L"} ${projected.x.toFixed(2)} ${projected.y.toFixed(2)}`);
+  });
+  if (!commands.length) {
+    return "";
+  }
+  commands.push("Z");
+  return commands.join(" ");
+}
+
+function projectMexicoGeometry(geojson) {
+  const viewWidth = 1080;
+  const viewHeight = 680;
+  const padding = 22;
+  let minLon = Infinity;
+  let maxLon = -Infinity;
+  let minLat = Infinity;
+  let maxLat = -Infinity;
+
+  geojson.features.forEach((feature) => {
+    const polygons = feature.geometry.type === "MultiPolygon" ? feature.geometry.coordinates : [feature.geometry.coordinates];
+    polygons.forEach((polygon) => {
+      polygon.forEach((ring) => {
+        ring.forEach((point) => {
+          const lon = Number(point?.[0]);
+          const lat = Number(point?.[1]);
+          if (!isRenderableMexicoCoordinate(lon, lat)) {
+            return;
+          }
+          minLon = Math.min(minLon, lon);
+          maxLon = Math.max(maxLon, lon);
+          minLat = Math.min(minLat, lat);
+          maxLat = Math.max(maxLat, lat);
+        });
+      });
+    });
+  });
+
+  if (!Number.isFinite(minLon) || !Number.isFinite(minLat)) {
+    return null;
+  }
+
+  const lonSpan = Math.max(maxLon - minLon, 1);
+  const latSpan = Math.max(maxLat - minLat, 1);
+  const project = (lon, lat) => ({
+    x: padding + ((lon - minLon) / lonSpan) * (viewWidth - padding * 2),
+    y: viewHeight - padding - ((lat - minLat) / latSpan) * (viewHeight - padding * 2)
+  });
+
+  const featureLookup = new Map();
+  const parts = [
+    `<svg class="world-map-svg mexico-map-svg" viewBox="0 0 ${viewWidth} ${viewHeight}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">`
+  ];
+
+  geojson.features.forEach((feature) => {
+    const rawName = String(feature?.properties?.state_name || "");
+    const key = normalizeMapEntityKey(rawName);
+    const polygons = feature.geometry.type === "MultiPolygon" ? feature.geometry.coordinates : [feature.geometry.coordinates];
+    const pathSegments = [];
+    let minX = Infinity;
+    let minY = Infinity;
+    let maxX = -Infinity;
+    let maxY = -Infinity;
+
+    polygons.forEach((polygon) => {
+      polygon.forEach((ring) => {
+        const path = buildProjectedRingPath(ring, project);
+        if (!path) {
+          return;
+        }
+        pathSegments.push(path);
+        ring.forEach((point) => {
+          const lon = Number(point?.[0]);
+          const lat = Number(point?.[1]);
+          if (!isRenderableMexicoCoordinate(lon, lat)) {
+            return;
+          }
+          const projected = project(lon, lat);
+          minX = Math.min(minX, projected.x);
+          minY = Math.min(minY, projected.y);
+          maxX = Math.max(maxX, projected.x);
+          maxY = Math.max(maxY, projected.y);
+        });
+      });
+    });
+
+    if (!pathSegments.length || !Number.isFinite(minX)) {
+      return;
+    }
+
+    const id = `mx-state-${slugify(rawName)}`;
+    parts.push(`<path id="${id}" data-map-key="${key}" d="${pathSegments.join(" ")}"></path>`);
+    featureLookup.set(key, {
+      id,
+      key,
+      name: rawName,
+      bbox: {
+        x: minX,
+        y: minY,
+        width: maxX - minX,
+        height: maxY - minY
+      }
+    });
+  });
+
+  parts.push("</svg>");
+  return {
+    markup: parts.join(""),
+    viewBox: [0, 0, viewWidth, viewHeight],
+    featureLookup
+  };
+}
+
+async function loadMapGeometry() {
+  if (state.mapGeometry) {
+    return state.mapGeometry;
+  }
+  if (!state.mapGeometryPromise) {
+    state.mapGeometryPromise = fetch(MEXICO_GEOJSON_PATH)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((geojson) => {
+        state.mapGeometry = projectMexicoGeometry(geojson);
+        return state.mapGeometry;
+      })
+      .catch((error) => {
+        console.error("No fue posible cargar el mapa de M\u00e9xico.", error);
+        return null;
+      });
+  }
+  return state.mapGeometryPromise;
+}
+
+async function ensureMap() {
   if (state.mapContext) {
     return state.mapContext;
   }
-
-  const root = document.getElementById("world-map-root");
-  if (!root) {
-    return null;
+  if (state.mapContextPromise) {
+    return state.mapContextPromise;
   }
 
-  root.innerHTML = `<div class="map-base"></div>`;
-  const base = root.querySelector(".map-base");
-  base.innerHTML = buildMexicoTileSvg();
-  const baseSvg = base.querySelector("svg");
-  if (!baseSvg) {
-    root.textContent = t("map_unavailable");
-    return null;
-  }
+  state.mapContextPromise = (async () => {
+    const root = document.getElementById("world-map-root");
+    if (!root) {
+      return null;
+    }
 
-  baseSvg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    const geometry = await loadMapGeometry();
+    if (!geometry) {
+      root.textContent = t("map_unavailable");
+      return null;
+    }
 
-  const viewBox = (baseSvg.getAttribute("viewBox") || "0 0 1024 620")
-    .split(/\s+/)
-    .map((value) => Number(value));
+    root.innerHTML = `<div class="map-base"></div>`;
+    const base = root.querySelector(".map-base");
+    base.innerHTML = geometry.markup;
+    const baseSvg = base.querySelector("svg");
+    if (!baseSvg) {
+      root.textContent = t("map_unavailable");
+      return null;
+    }
 
-  const bubbleSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  bubbleSvg.setAttribute("viewBox", viewBox.join(" "));
-  bubbleSvg.setAttribute("preserveAspectRatio", "xMidYMid meet");
-  bubbleSvg.classList.add("bubble-layer");
-  root.appendChild(bubbleSvg);
+    const bubbleSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    bubbleSvg.setAttribute("viewBox", geometry.viewBox.join(" "));
+    bubbleSvg.setAttribute("preserveAspectRatio", "xMidYMid meet");
+    bubbleSvg.classList.add("bubble-layer");
+    root.appendChild(bubbleSvg);
 
-  state.mapContext = {
-    root,
-    base,
-    baseSvg,
-    bubbleSvg,
-    scale: 1,
-    translateX: 0,
-    translateY: 0
-  };
-  bindMapInteractions(state.mapContext);
-  applyMapTransform(state.mapContext);
-  return state.mapContext;
+    state.mapContext = {
+      root,
+      base,
+      baseSvg,
+      bubbleSvg,
+      featureLookup: geometry.featureLookup,
+      scale: 1,
+      translateX: 0,
+      translateY: 0
+    };
+    bindMapInteractions(state.mapContext);
+    applyMapTransform(state.mapContext);
+    return state.mapContext;
+  })();
+
+  return state.mapContextPromise;
 }
 
 function clampMapScale(scale) {
@@ -951,12 +1122,16 @@ function clearMapState(mapContext) {
   });
 }
 
-function getMapAnchor(mapContext, mapCode) {
-  const target = mapContext.baseSvg.querySelector(`[id="${mapCode}"]`);
+function getMapAnchor(mapContext, mapKey) {
+  const feature = mapContext.featureLookup.get(mapKey);
+  if (!feature) {
+    return null;
+  }
+  const target = mapContext.baseSvg.querySelector(`[data-map-key="${mapKey}"]`);
   if (!target) {
     return null;
   }
-  const bbox = target.getBBox();
+  const bbox = feature.bbox;
   return {
     x: bbox.x + bbox.width / 2,
     y: bbox.y + bbox.height / 2,
@@ -964,20 +1139,20 @@ function getMapAnchor(mapContext, mapCode) {
   };
 }
 
-function renderMap(rows) {
-  const mapContext = ensureMap();
+async function renderMap(rows) {
+  const mapContext = await ensureMap();
   if (!mapContext) {
     return;
   }
 
   clearMapState(mapContext);
   const validRows = rows
-    .map((row) => ({ ...row, map_code: ENTITY_CODE_LOOKUP.get(foldKey(row.entity_canonical)) }))
-    .filter((row) => row.map_code);
+    .map((row) => ({ ...row, map_key: normalizeMapEntityKey(row.entity_canonical) }))
+    .filter((row) => mapContext.featureLookup.has(row.map_key));
   const maxCount = Math.max(...validRows.map((row) => Number(row.scholarship_count || 0)), 1);
 
   validRows.forEach((row) => {
-    const anchor = getMapAnchor(mapContext, row.map_code);
+    const anchor = getMapAnchor(mapContext, row.map_key);
     if (!anchor) {
       return;
     }
